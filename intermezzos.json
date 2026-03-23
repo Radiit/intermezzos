@@ -195,6 +195,14 @@
       "sources": ["https://www.pantheonroma.com/en/2026/02/11/the-pantheon-dome-a-marvel-of-ancient-roman-architecture/", "https://www.pantheonrome.org/en/rome-pantheon/architecture/pantheon-architecture-dome-engineering", "https://www.openaccessgovernment.org/secret-ultradurable-ancient-roman-concrete-pantheon-history/151095/"],
       "deliveredAt": ["2026-03-23T21:45:00+08:00"],
       "count": 1
+    },
+    {
+      "id": "sleep-memory-consolidation",
+      "topic": "Neuroscience/Sleep",
+      "fact": "During NREM sleep, your brain replays and strengthens memories through a precise coordination of slow oscillations, spindles, and sharp-wave ripples that transfer information from hippocampus to cortex. A 2025 study confirmed students recalled significantly more textual details after sleep versus wakefulness, with memory performance directly correlating to sleep cycle count. This systems consolidation process transforms fragile short-term memories into stable long-term knowledge while you sleep.",
+      "sources": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC12576410/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC11940185/"],
+      "deliveredAt": ["2026-03-23T22:30:00+08:00"],
+      "count": 1
     }
   ],
   "topics": [
