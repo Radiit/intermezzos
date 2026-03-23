@@ -235,6 +235,14 @@
       "sources": ["https://pubmed.ncbi.nlm.nih.gov/40329800/", "https://a2la.org/forensic-dna-phenotyping/", "https://www.biometricupdate.com/202505/dna-used-to-recreate-3d-face-images-in-groundbreaking-new-investigative-technique"],
       "deliveredAt": ["2026-03-24T01:46:00+08:00"],
       "count": 1
+    },
+    {
+      "id": "global-seaweed-regime-shift",
+      "topic": "Ocean/Climate Change",
+      "fact": "Earth's oceans are undergoing a 'regime shift' from algae-poor to algae-rich, with seaweed blooms expanding 13.4% annually since 2008. University of South Florida scientists analyzed 1.2 million satellite images using AI, finding massive mats now stretch across the tropical Atlantic and western Pacific — driven by global heating and agricultural runoff. This could darken ocean waters, alter marine ecosystems, and accelerate climate breakdown, verified through Nature Communications and peer-reviewed research.",
+      "sources": ["https://www.nature.com/articles/s41467-025-66822-5", "https://www.theguardian.com/environment/2026/jan/19/scientists-seaweed-blooms-expand-worldwide-ocean-pollution", "https://www.sciencedaily.com/releases/2025/11/251118220054.htm"],
+      "deliveredAt": ["2026-03-24T02:31:00+08:00"],
+      "count": 1
     }
   ],
   "topics": [
@@ -265,6 +273,7 @@
     "Medicine/Medical History",
     "Birds/Ornithology",
     "Neuroscience",
-    "Forensics/Criminal Science"
+    "Forensics/Criminal Science",
+    "Ocean/Climate Change"
   ]
 }
