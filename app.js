@@ -8,6 +8,14 @@ async function loadData() {
     const data = await res.json();
     allData = data.delivered || [];
     
+    // SORT: Verified facts first (with sources), then unverified
+    allData.sort((a, b) => {
+      const aVerified = (a.sources && a.sources.length > 0) ? 1 : 0;
+      const bVerified = (b.sources && b.sources.length > 0) ? 1 : 0;
+      // Descending: verified (1) before unverified (0)
+      return bVerified - aVerified;
+    });
+    
     document.getElementById('totalCount').textContent = `${allData.length} unique facts collected`;
     
     if (allData.length > 0) {
@@ -54,11 +62,11 @@ function renderGrid(items) {
     const srcCount = sources.length;
     const hasSources = srcCount > 0;
     const sourceBadge = hasSources 
-      ? `<span style="color:var(--accent)">${srcCount} source${srcCount !== 1 ? 's' : ''}</span>`
+      ? `<span style="color:var(--accent)">✅ ${srcCount} source${srcCount !== 1 ? 's' : ''}</span>`
       : `<span style="color:#ff9f43">⚠️ Needs validation</span>`;
     
     return `
-    <div class="card" onclick="openModal(${i})" style="${!hasSources ? 'border-color:#ff9f4344;' : ''}">
+    <div class="card" onclick="openModal(${i})" style="${!hasSources ? 'border-color:#ff9f4344;opacity:0.85;' : ''}">
       <div class="card-topic">${item.topic}${!hasSources ? ' <span style="font-size:10px;background:#ff9f43;color:#000;padding:2px 6px;border-radius:4px;margin-left:6px;">UNVERIFIED</span>' : ''}</div>
       <div class="card-fact">${item.fact.substring(0, 120)}${item.fact.length > 120 ? '...' : ''}</div>
       <div class="card-meta">
@@ -77,16 +85,13 @@ function openModal(index) {
   const sources = item.sources || [];
   if (sources.length > 0) {
     document.getElementById('mSources').innerHTML = 
-      `<h3>Sources</h3>` + sources.map(s => `<a href="${s}" target="_blank" rel="noopener" class="source-link">🔗 ${s.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a>`).join('');
+      `<h3>✅ Verified Sources</h3>` + sources.map(s => `<a href="${s}" target="_blank" rel="noopener" class="source-link">🔗 ${s.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a>`).join('');
   } else {
     document.getElementById('mSources').innerHTML = 
       `<h3 style="color:#ff9f43">⚠️ No Sources Recorded</h3>
        <p style="color:var(--muted);font-size:13px;line-height:1.5;">
          This fact hasn't been verified with credible sources yet. 
          Please validate independently before trusting or sharing.
-       </p>
-       <p style="color:var(--muted);font-size:12px;margin-top:8px;">
-         💡 Help improve this archive: submit sources via GitHub issues
        </p>`;
   }
   
