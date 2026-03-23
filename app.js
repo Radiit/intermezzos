@@ -2,12 +2,18 @@ const DATA_URL = 'intermezzos.json';
 let allData = [];
 
 function loadRandomFact() {
-  if (allData.length === 0) {
-    document.getElementById('randomFact').textContent = 'Loading fascinating story...';
-    return;
+  try {
+    if (!allData || allData.length === 0) {
+      const el = document.getElementById('randomFact');
+      if (el) el.textContent = 'Tap "🔄 Another Fact" to load!';
+      return;
+    }
+    const random = allData[Math.floor(Math.random() * allData.length)];
+    const el = document.getElementById('randomFact');
+    if (el) el.textContent = random.fact;
+  } catch(e) {
+    console.error('loadRandomFact error:', e);
   }
-  const random = allData[Math.floor(Math.random() * allData.length)];
-  document.getElementById('randomFact').textContent = random.fact;
 }
 
 async function loadData() {
