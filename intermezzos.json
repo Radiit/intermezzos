@@ -282,6 +282,18 @@
       ],
       "deliveredAt": ["2026-03-24T06:19:00+08:00"],
       "count": 1
+    },
+    {
+      "id": "adult-neuroplasticity-training",
+      "topic": "Neuroscience/Brain Training",
+      "fact": "Your adult brain remains capable of rewiring itself through neuroplasticity — the ability to form new neural connections throughout life. Harvard Medical School research confirms that challenging mental activities, physical exercise, and quality sleep strengthen cognitive fitness by promoting structural and functional brain changes. A 2025 review analyzing 25 interventions found that exercise type, intensity, and duration collectively modulate neuroplastic responses across multiple brain networks, proving that lifestyle choices directly shape your brain's adaptability regardless of age.",
+      "sources": [
+        "https://www.health.harvard.edu/mind-and-mood/tips-to-leverage-neuroplasticity-to-maintain-cognitive-fitness-as-you-age",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12390317/",
+        "https://pubmed.ncbi.nlm.nih.gov/40280532/"
+      ],
+      "deliveredAt": ["2026-03-24T07:21:00+08:00"],
+      "count": 1
     }
   ],
   "topics": [
@@ -314,6 +326,7 @@
     "Neuroscience",
     "Forensics/Criminal Science",
     "Ocean/Climate Change",
-    "Animal Consciousness"
+    "Animal Consciousness",
+    "Neuroscience/Brain Training"
   ]
 }
