@@ -1,0 +1,55 @@
+{
+  "WFWorkflowInputParameters": [],
+  "WFWorkflowClientRelease": "0.3",
+  "WFWorkflowName": "Intermezzo Fact of the Day",
+  "WFWorkflowOutputs": [],
+  "WFWorkflowTypes": ["Widget"],
+  "WFWorkflowIcon": {
+    "WFWorkflowIconStartColor": 16747195,
+    "GlyphImage": {
+      "wf:imageDataWithRepresentations": [
+        {"_args":["glyph:brain"],"resolutions":[60]}
+      ]
+    }
+  },
+  "WFWorkflowStages": [],
+  "OneShotWorkflow": false,
+  "WFContentItemInputParameter": {},
+  "workflow": {
+    "steps": [
+      {
+        "identifier": "com.apple.WorkflowCore.GetURLContents",
+        "parameters": {
+          "URL": "https://gustavoibenc.github.io/intermezzos/intermezzos.json",
+          "Method": "GET"
+        },
+        "type": "action"
+      },
+      {
+        "identifier": "com.apple.WorkflowCore.ParseJSON",
+        "parameters": {},
+        "type": "action"
+      },
+      {
+        "identifier": "com.apple.WorkflowCore.GetItemFromList",
+        "parameters": {
+          "Index": 0,
+          "Input": "delivered"
+        },
+        "type": "action"
+      },
+      {
+        "identifier": "com.apple.WorkflowCore.Text",
+        "parameters": {
+          "Text": "✨ Fact of the Day\n\n«fact»\n\n📅 «date»"
+        },
+        "type": "action"
+      },
+      {
+        "identifier": "com.apple.WorkflowCore.ShowResult",
+        "parameters": {},
+        "type": "action"
+      }
+    ]
+  }
+}
