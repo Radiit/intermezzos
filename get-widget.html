@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Get Intermezzo Widget - Instant Setup</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, system-ui; background: linear-gradient(135deg, #6366f1, #818cf8); min-height: 100vh; display: grid; place-items: center; padding: 20px; text-align: center; color: white; }
+    .container { background: rgba(255,255,255,0.95); backdrop-filter: blur(20px); border-radius: 32px; padding: 40px 30px; max-width: 500px; width: 100%; color: #333; box-shadow: 0 20px 60px rgba(0,0,0,0.4); }
+    h1 { font-size: 32px; margin-bottom: 10px; }
+    .emoji { font-size: 64px; margin: 20px 0; }
+    p { color: #666; line-height: 1.6; margin: 20px 0; }
+    .btn { display: block; background: #6366f1; color: white; padding: 18px 32px; border-radius: 16px; text-decoration: none; font-size: 18px; font-weight: 700; margin: 24px 0 12px; transition: transform 0.2s; }
+    .btn:hover { transform: translateY(-2px); background: #4f46e5; }
+    .steps { background: #f8f9ff; border-radius: 16px; padding: 24px; margin-top: 30px; text-align: left; }
+    .step { margin: 16px 0; padding-left: 40px; position: relative; }
+    .step::before { content: "✓"; position: absolute; left: 0; top: 0; width: 28px; height: 28px; background: #10b981; color: white; border-radius: 50%; font-weight: bold; display: grid; place-items: center; font-size: 16px; }
+    .note { background: #fff3cd; border-left: 4px solid #ffc107; padding: 16px; border-radius: 8px; margin-top: 24px; text-align: left; font-size: 14px; }
+    @media (max-width: 500px) { .container { padding: 30px 20px; } h1 { font-size: 26px; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🍎 Get Your Widget!</h1>
+    <div class="emoji">✨</div>
+    <p><strong>Tap the button below</strong> to instantly add the Intermezzo Fact widget to your iPhone home screen.</p>
+    
+    <!-- This downloads the shortcut file -->
+    <a href="data:application/octet-stream;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJzaW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+V0ZXb3JrZmxvd0FjdGlvbnM8L2tleT4KCTxhcnJheT4KCQk8ZGljdD4KCQkJPGtleT5XRldvcmtmbG93QWN0aW9uSWRlbnRpZmllcjwva2V5PgoJCQkc3RyaW5nPmNvbS5hcHBsZS5Xb3JrZmxvd0NvcmUuR2V0VVJMQ29udGVudHM8L3N0cmluZz4KCQkJPGxlc3RyZWFrPldGV29ya2Zsb3dBY3Rpb25QYXJhbWV0ZXJzPC9rZXk+CgkJCTxkaWN0PgogCQkJPC9kaWN0PgoJCTwvZGljdD4KCTwvYXJyYXk+CjwvZGljdD4KPC9wbGlzdD4=" 
+     download="IntermezzoFact.shortcut" 
+     id="downloadButton" 
+     class="btn"
+     onclick="startInstall()">
+      📲 Install Widget Now
+    </a>
+    
+    <p style="font-size:14px;">(Works on iPhone iOS 14+)</p>
+    
+    <div class="steps">
+      <h3 style="margin-bottom:20px;">What happens:</h3>
+      <div class="step"><strong>Tap "Install Widget"</strong> above</div>
+      <div class="step">File downloads automatically</div>
+      <div class="step">Opens in Shortcuts app</div>
+      <div class="step">Tap <strong>"Get Shortcut"</strong></div>
+      <div class="step">Share → <strong>"Add to Home Screen"</strong></div>
+      <div class="step"><strong>DONE!</strong> Widget appears ✨</div>
+    </div>
+    
+    <div class="note">
+      💡 <strong>Tip:</strong> If nothing happens when you tap, your iPhone may be blocking the download. Go to Settings → Safari → turn OFF "Block Pop-ups", then try again!
+    </div>
+    
+    <p style="margin-top:30px; font-size:13px; color:#999;">
+      Alternative: <a href="widget-qr.html" style="color:#6366f1;">Scan QR code</a> or <a href="INSTALL_WIDGET.md" style="color:#6366f1;">manual setup guide</a>
+    </p>
+  </div>
+  
+  <script>
+    function startInstall() {
+      setTimeout(() => {
+        alert("✅ File downloaded!\n\nIt should open automatically in Shortcuts app.\n\nIf not:\n1. Check Downloads folder\n2. Tap the file\n3. Tap 'Get Shortcut'\n4. Add to Home Screen");
+      }, 1000);
+    }
+  </script>
+</body>
+</html>
