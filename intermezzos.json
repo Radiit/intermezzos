@@ -163,6 +163,14 @@
       "sources": ["https://www.nature.com/articles/35104092", "https://pmc.ncbi.nlm.nih.gov/articles/PMC4211395/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC4784844/", "https://alleninstitute.org/news/new-research-to-understand-how-the-brain-handles-optical-illusions-and-makes-predictions/"],
       "deliveredAt": ["2026-03-23T18:00:00+08:00"],
       "count": 1
+    },
+    {
+      "id": "four-color-theorem",
+      "topic": "Mathematics",
+      "fact": "The Four Color Theorem states that any map needs only four colors so no adjacent regions share the same color. In 1976, Kenneth Appel and Wolfgang Haken proved it using a computer to check 1,936 configurations—the first major theorem proved with computational assistance. Initially controversial because humans couldn't manually verify billions of cases, the proof was later confirmed through independent verification and a fully formal Coq proof by Georges Gonthier in 2005, eliminating all doubt about its correctness.",
+      "sources": ["https://en.wikipedia.org/wiki/Four_color_theorem", "https://mathshistory.st-andrews.ac.uk/HistTopics/The_four_colour_theorem/", "https://people.ucalgary.ca/~rzach/blog/2005/04/four-color-theorem-verified-in-coq.html"],
+      "deliveredAt": ["2026-03-23T19:30:00+08:00"],
+      "count": 1
     }
   ],
   "topics": [
@@ -185,6 +193,7 @@
     "Geology",
     "AI/Computing History",
     "Music/Sound Science",
-    "Optical Illusions"
+    "Optical Illusions",
+    "Mathematics"
   ]
 }
