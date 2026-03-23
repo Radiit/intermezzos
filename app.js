@@ -1,6 +1,16 @@
 const DATA_URL = 'intermezzos.json';
 let allData = [];
 
+// Load random fact immediately for "Fact of the Moment"
+function loadRandomFact() {
+  if (allData.length === 0) {
+    document.getElementById('randomFact').textContent = 'Loading fascinating fact...';
+    return;
+  }
+  const random = allData[Math.floor(Math.random() * allData.length)];
+  document.getElementById('randomFact').textContent = random.fact;
+}
+
 async function loadData() {
   try {
     const res = await fetch(DATA_URL + '?t=' + Date.now());
@@ -24,6 +34,9 @@ async function loadData() {
     document.getElementById('topicsCount').textContent = topics.length;
     document.getElementById('verifiedCount').textContent = verified;
     
+    // Load random fact NOW that data is ready
+    loadRandomFact();
+    
     renderFilters();
     renderGrid(allData);
     
@@ -43,7 +56,8 @@ async function loadData() {
     
   } catch (e) {
     console.error(e);
-    document.getElementById('grid').innerHTML = '<div class="loading">Failed to load facts. Pull to refresh.</div>';
+    document.getElementById('randomFact').textContent = 'Failed to load. Pull to refresh.';
+    document.getElementById('grid').innerHTML = '<div style="text-align:center;padding:60px 20px;color:var(--muted);">Failed to load facts. Pull to refresh.</div>';
   }
 }
 
