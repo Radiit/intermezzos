@@ -164,3 +164,46 @@
   </script>
 </body>
 </html>
+
+  <!-- Periodic Reminder Modal -->
+  <div id="reminderModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);backdrop-filter:blur(8px);z-index:3000;place-items:center;">
+    <div style="background:var(--card);border-radius:24px;padding:32px 24px;max-width:400px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.4);">
+      <div style="font-size:48px;margin-bottom:16px;">🔔</div>
+      <h3 style="font-size:20px;margin-bottom:12px;">Never Miss a Fact!</h3>
+      <p style="color:var(--muted);line-height:1.6;margin-bottom:24px;">
+        Add Intermezzo to your home screen and get notified of new facts throughout the day.
+      </p>
+      <div style="background:#fef3c7;border-left:4px solid #f59e0b;padding:16px;border-radius:8px;text-align:left;font-size:14px;margin-bottom:24px;">
+        ⏰ <strong>Note:</strong> You'll receive a notification approximately every 45 minutes with a fresh verified fact.
+      </div>
+      <button onclick="showInstallInstructions();document.getElementById('reminderModal').style.display='none'" style="background:var(--accent);color:white;border:none;padding:14px 28px;border-radius:12px;font-weight:700;font-size:16px;width:100%;cursor:pointer;margin-bottom:12px;">Add to Home Screen</button>
+      <button onclick="dismissReminder()" style="background:none;color:var(--muted);border:none;padding:10px;font-size:14px;cursor:pointer;">Maybe Later</button>
+    </div>
+  </div>
+
+  <script>
+    // Show reminder after 2 minutes if user hasn't installed
+    let reminderShown = false;
+    
+    function shouldShowReminder() {
+      const dismissed = localStorage.getItem('reminderDismissed');
+      const installed = window.matchMedia('(display-mode: standalone)').matches;
+      return !installed && !dismissed && !reminderShown;
+    }
+    
+    setTimeout(() => {
+      if (shouldShowReminder()) {
+        document.getElementById('reminderModal').style.display = 'grid';
+        reminderShown = true;
+      }
+    }, 120000); // 2 minutes
+    
+    function dismissReminder() {
+      document.getElementById('reminderModal').style.display = 'none';
+      // Don't show again for 24 hours
+      localStorage.setItem('reminderDismissed', 'true');
+      setTimeout(() => {
+        localStorage.removeItem('reminderDismissed');
+      }, 86400000); // 24 hours
+    }
+  </script>
