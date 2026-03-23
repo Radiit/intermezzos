@@ -1,10 +1,9 @@
 const DATA_URL = 'intermezzos.json';
 let allData = [];
 
-// Load random fact immediately for "Fact of the Moment"
 function loadRandomFact() {
   if (allData.length === 0) {
-    document.getElementById('randomFact').textContent = 'Loading fascinating fact...';
+    document.getElementById('randomFact').textContent = 'Loading fascinating story...';
     return;
   }
   const random = allData[Math.floor(Math.random() * allData.length)];
@@ -17,97 +16,48 @@ async function loadData() {
     if (!res.ok) throw new Error();
     const data = await res.json();
     allData = data.delivered || [];
+    allData.sort((a, b) => (b.sources?.length ? 1 : 0) - (a.sources?.length ? 1 : 0));
     
-    // Sort: verified first
-    allData.sort((a, b) => {
-      const aVerified = (a.sources && a.sources.length > 0) ? 1 : 0;
-      const bVerified = (b.sources && b.sources.length > 0) ? 1 : 0;
-      return bVerified - aVerified;
-    });
-    
-    // Update stats
-    const total = allData.length;
-    const topics = [...new Set(allData.map(d => d.topic.split('/')[0]))];
-    const verified = allData.filter(f => f.sources && f.sources.length > 0).length;
-    
-    document.getElementById('totalFacts').textContent = total;
-    document.getElementById('topicsCount').textContent = topics.length;
-    document.getElementById('verifiedCount').textContent = verified;
-    
-    // Load random fact NOW that data is ready
     loadRandomFact();
-    
     renderFilters();
     renderGrid(allData);
     
-    // Search functionality
     document.getElementById('searchBox').addEventListener('input', (e) => {
-      const query = e.target.value.toLowerCase();
-      if (!query) {
-        renderGrid(allData);
-      } else {
-        const filtered = allData.filter(item => 
-          item.fact.toLowerCase().includes(query) ||
-          item.topic.toLowerCase().includes(query)
-        );
-        renderGrid(filtered);
-      }
+      const q = e.target.value.toLowerCase();
+      renderGrid(q ? allData.filter(i => i.fact.toLowerCase().includes(q) || i.topic.toLowerCase().includes(q)) : allData);
     });
     
+    setTimeout(() => {
+      if (!window.matchMedia('(display-mode: standalone)').matches && localStorage.getItem('installDismissed') !== 'true') {
+        document.getElementById('installBanner').classList.add('show');
+      }
+    }, 3000);
   } catch (e) {
-    console.error(e);
-    document.getElementById('randomFact').textContent = 'Failed to load. Pull to refresh.';
-    document.getElementById('grid').innerHTML = '<div style="text-align:center;padding:60px 20px;color:var(--muted);">Failed to load facts. Pull to refresh.</div>';
+    document.getElementById('randomFact').textContent = 'Pull down to refresh...';
+    document.getElementById('grid').innerHTML = '<div class="loading">Failed to load. Pull down to refresh.</div>';
   }
 }
 
 function renderFilters() {
   const topics = [...new Set(allData.map(d => d.topic.split('/')[0]))];
-  const container = document.getElementById('filters');
-  
-  let html = `<button class="filter-btn active" onclick="filterBy('all')">All</button>`;
-  topics.forEach(t => {
-    html += `<button class="filter-btn" onclick="filterBy('${t}')">${t}</button>`;
-  });
-  container.innerHTML = html;
+  document.getElementById('filters').innerHTML = [`<button class="filter-btn active" onclick="filterBy('all')">All</button>`, ...topics.map(t => `<button class="filter-btn" onclick="filterBy('${t}')">${t}</button>`)].join('');
 }
 
 function filterBy(topic) {
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
   event.target.classList.add('active');
-  
-  const filtered = topic === 'all' ? allData : allData.filter(d => d.topic.startsWith(topic));
-  renderGrid(filtered);
+  renderGrid(topic === 'all' ? allData : allData.filter(d => d.topic.startsWith(topic)));
 }
 
 function renderGrid(items) {
-  const grid = document.getElementById('grid');
-  if (items.length === 0) {
-    grid.innerHTML = '<div class="loading">No facts found matching your search.</div>';
-    return;
-  }
-  
-  grid.innerHTML = items.map((item, i) => {
-    const sources = item.sources || [];
-    const srcCount = sources.length;
-    const hasSources = srcCount > 0;
-    const badgeClass = hasSources ? 'card-verified' : 'card-unverified';
-    const badgeText = hasSources ? `✅ Verified (${srcCount})` : '⚠️ Unverified';
-    
-    return `
+  document.getElementById('grid').innerHTML = items.length === 0 ? '<div class="loading">No curiosities found.</div>' : items.map((item, i) => `
     <div class="card" onclick="openModal(${i})">
-      <div class="${badgeClass}">${hasSources ? '✅ Verified' : '⚠️ Unverified'}</div>
+      ${item.sources?.length > 0 ? '<div class="card-badge">✓ Verified</div>' : '<div class="card-badge unverified">⚠ Unverified</div>'}
       <div class="card-topic">${item.topic.split('/')[0]}</div>
       <div class="card-fact">${item.fact.substring(0, 140)}${item.fact.length > 140 ? '...' : ''}</div>
-      <div class="card-meta">
-        <span>${new Date(item.deliveredAt[0]).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}</span>
-        <div class="sources-badge">
-          ${hasSources ? '<span class="source-icon">📚</span>' : ''}
-          <span>${hasSources ? srcCount + ' source' + (srcCount !== 1 ? 's' : '') : 'Needs validation'}</span>
-        </div>
-      </div>
+      <div class="card-footer"><span>${new Date(item.deliveredAt[0]).toLocaleDateString('en-US', {month:'short',day:'numeric'})}</span><span class="read-more">Read story →</span></div>
     </div>
-  `}).join('');
+  `).join('');
 }
 
 function openModal(index) {
@@ -116,19 +66,10 @@ function openModal(index) {
   document.getElementById('mFact').textContent = item.fact;
   
   const sources = item.sources || [];
-  if (sources.length > 0) {
-    document.getElementById('mSources').innerHTML = 
-      `<h3>📚 Verified Sources (${sources.length})</h3>` + 
-      sources.map(s => `<a href="${s}" target="_blank" rel="noopener" class="source-link">🔗 ${s.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a>`).join('');
-  } else {
-    document.getElementById('mSources').innerHTML = 
-      `<h3 style="color:#f59e0b">⚠️ Needs Validation</h3>
-       <p style="color:var(--muted);font-size:14px;line-height:1.6;">
-         This fact hasn't been verified with credible sources yet. Please validate independently before trusting or sharing.
-       </p>`;
-  }
+  document.getElementById('mSources').innerHTML = sources.length > 0 
+    ? `<h3>Sources & References</h3>` + sources.map(s => `<a href="${s}" target="_blank" class="source-link">📖 ${s.replace(/^https?:\/\//,'').replace(/\/$/,'')}</a>`).join('')
+    : '<p style="color:var(--muted);font-size:14px;">This fact needs verification from credible sources.</p>';
   
-  document.getElementById('mDate').textContent = `First shared: ${new Date(item.deliveredAt[0]).toLocaleString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' })}`;
   document.getElementById('overlay').classList.add('active');
   document.body.style.overflow = 'hidden';
 }
@@ -136,6 +77,15 @@ function openModal(index) {
 function closeModal() {
   document.getElementById('overlay').classList.remove('active');
   document.body.style.overflow = '';
+}
+
+function showInstallGuide() {
+  alert('🍎 To install:\n\n1. Tap Share button (box with arrow)\n2. Scroll and tap "Add to Home Screen"\n3. Tap "Add"\n\n✨ Done! Icon appears on home screen.');
+}
+
+function dismissInstall() {
+  document.getElementById('installBanner').classList.remove('show');
+  localStorage.setItem('installDismissed', 'true');
 }
 
 loadData();
