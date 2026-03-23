@@ -1,0 +1,19 @@
+iOS WIDGET - 15 SECOND SETUP!
+=============================
+
+EASIEST WAY (coming soon):
+Tap this link on iPhone: [ICLOUD LINK - coming soon]
+→ Tap "Get Shortcut" → Done!
+
+MANUAL WAY (works now, takes 60 sec):
+1. Open Shortcuts app
+2. Tap + 
+3. Add these actions:
+   - URL → paste: https://gustavoibenc.github.io/intermezzos/intermezzos.json
+   - Get Dictionary Value → Key: delivered[0].fact
+   - Show Result
+4. Name: "Intermezzo Fact"
+5. Share → Add to Home Screen
+6. Done!
+
+Full guide: INSTALL_WIDGET.md
