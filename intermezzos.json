@@ -251,6 +251,14 @@
       "sources": ["https://www.cas.org/resources/cas-insights/scientific-breakthroughs-2026-emerging-trends-watch", "https://pubs.acs.org/doi/full/10.1021/acsenergylett.4c00172"],
       "deliveredAt": ["2026-03-24T03:16:00+08:00"],
       "count": 1
+    },
+    {
+      "id": "blood-test-cancer-early",
+      "topic": "Cancer/Medical Science",
+      "fact": "Multiple breakthrough blood tests can now detect cancers years before symptoms appear. Mass General Brigham's HPV-DeepSeek identifies HPV-linked head and neck cancers up to 10 years early with 99% accuracy by finding viral DNA in blood. Oxford's TriOx test uses machine learning plus TAPS DNA analysis to detect six cancer types in early stages. NIH researchers added two new biomarkers (ANPEP and PIGR) to create a four-marker panel that catches 87.5% of early-stage pancreatic cancers — one of the deadliest forms — at just 5% false positive rate.",
+      "sources": ["https://www.sciencedaily.com/releases/2025/10/251013040337.htm", "https://www.ox.ac.uk/news/2025-01-13-oxford-researchers-develop-blood-test-enable-early-detection-multiple-cancers", "https://www.nih.gov/news-events/news-releases/researchers-identify-new-blood-markers-may-detect-early-pancreatic-cancer"],
+      "deliveredAt": ["2026-03-24T04:17:00+08:00"],
+      "count": 1
     }
   ],
   "topics": [
