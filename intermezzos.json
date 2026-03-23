@@ -190,7 +190,7 @@
     },
     {
       "id": "pantheon-concrete-engineering",
-      "topic": "Architecture/Engineering",
+      "topic": "Architecture/ Engineering",
       "fact": "Rome's Pantheon has the world's largest unreinforced concrete dome at 43.3m diameter — still intact after 1,900 years. Roman engineers used a genius graduated concrete mix: heavy travertine at the base for strength, progressively lighter volcanic pumice toward the top. The dome thins from 5.9m at the base to just 1.5m near the oculus, while 28 coffers in 5 rings shave off hundreds of tons. Modern MIT/Harvard research confirms Roman concrete's self-healing properties through continued pozzolanic reactions.",
       "sources": ["https://www.pantheonroma.com/en/2026/02/11/the-pantheon-dome-a-marvel-of-ancient-roman-architecture/", "https://www.pantheonrome.org/en/rome-pantheon/architecture/pantheon-architecture-dome-engineering", "https://www.openaccessgovernment.org/secret-ultradurable-ancient-roman-concrete-pantheon-history/151095/"],
       "deliveredAt": ["2026-03-23T21:45:00+08:00"],
@@ -210,6 +210,14 @@
       "fact": "Scientists developed \"Jerk\" — a volcanic early warning system that detects tiny ground movements from rising magma using just one seismometer. Tested at La Réunion volcano for 10 years, it successfully predicted 92% of 24 eruptions between 2014-2023, with warnings ranging from minutes to 8.5 hours before eruption. The system catches ultra-low frequency signals from underground fracture openings, offering hope for monitoring previously unwatched volcanoes worldwide.",
       "sources": ["https://www.sciencedaily.com/releases/2026/03/260315004411.htm", "https://www.nature.com/articles/s41467-025-66256-z", "https://volcano.si.edu/faq/index.cfm?question=eruptionforecast"],
       "deliveredAt": ["2026-03-23T23:31:00+08:00"],
+      "count": 1
+    },
+    {
+      "id": "antarctica-subglacial-lakes",
+      "topic": "Antarctica/Polar Science",
+      "fact": "Scientists discovered 85 new active subglacial lakes buried beneath Antarctica's ice using 10 years of ESA CryoSat-2 satellite data—boosting known active lakes by nearly 60%. These lakes exist ~4,000 meters down, where geothermal heat and frictional warming prevent freezing. When they fill or drain, the ice surface above moves like a \"blister,\" affecting ice sheet flow and potentially accelerating sea level rise.",
+      "sources": ["https://www.nature.com/articles/s41467-025-63773-9", "https://eos.org/articles/satellite-data-reveal-changing-lakes-under-antarctic-ice", "https://www.livescience.com/planet-earth/antarctica/scientists-discover-85-active-lakes-buried-beneath-antarcticas-ice"],
+      "deliveredAt": ["2026-03-24T00:16:00+08:00"],
       "count": 1
     }
   ],
@@ -235,6 +243,11 @@
     "Music/Sound Science",
     "Optical Illusions",
     "Mathematics",
-    "Architecture/Engineering"
+    "Architecture/Engineering",
+    "Antarctica/Polar Science",
+    "Sleep",
+    "Medicine/Medical History",
+    "Birds/Ornithology",
+    "Neuroscience"
   ]
 }
