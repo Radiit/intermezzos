@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get Intermezzo Widget</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, system-ui; background: linear-gradient(135deg, #6366f1, #818cf8); min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
+    .card { background: white; border-radius: 24px; padding: 40px 30px; max-width: 500px; width: 100%; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
+    h1 { font-size: 28px; margin-bottom: 12px; text-align: center; }
+    .subtitle { text-align: center; color: #666; margin-bottom: 30px; line-height: 1.5; }
+    .method { margin: 30px 0; padding: 20px; background: #f8f9ff; border-radius: 16px; }
+    .method h2 { font-size: 18px; margin-bottom: 15px; color: #6366f1; display: flex; align-items: center; gap: 8px; }
+    .steps { list-style: none; counter-reset: step-counter; }
+    .steps li { position: relative; padding-left: 35px; margin: 12px 0; counter-increment: step-counter; }
+    .steps li::before { content: counter(step-counter); position: absolute; left: 0; top: 0; width: 24px; height: 24px; background: #6366f1; color: white; border-radius: 50%; font-size: 12px; font-weight: bold; display: grid; place-items: center; }
+    .url-box { background: white; border: 2px dashed #6366f1; padding: 12px; border-radius: 8px; word-break: break-all; font-size: 13px; margin: 10px 0; color: #333; }
+    .btn { display: inline-block; background: #6366f1; color: white; padding: 14px 28px; border-radius: 12px; text-decoration: none; font-weight: 600; text-align: center; margin-top: 20px; width: 100%; }
+    .btn:hover { background: #4f46e5; }
+    .note { background: #fff3cd; border-left: 4px solid #ffc107; padding: 12px; margin: 20px 0; border-radius: 8px; font-size: 14px; }
+    @media (max-width: 500px) { .card { padding: 30px 20px; } h1 { font-size: 24px; } }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🍎 Get Intermezzo Widget</h1>
+    <p class="subtitle">Add a daily facts widget to your iPhone home screen in under 1 minute!</p>
+    
+    <div class="method">
+      <h2>⚡ Method 1: Super Quick (30 sec)</h2>
+      <ol class="steps">
+        <li>Open <strong>Shortcuts</strong> app</li>
+        <li>Tap <strong>+</strong> (top right)</li>
+        <li>Search "URL" → Add action</li>
+        <li>Paste this:
+          <div class="url-box">https://gustavoibenc.github.io/intermezzos/intermezzos.json</div>
+        </li>
+        <li>Search "Dictionary" → Add "Get Dictionary Value"</li>
+        <li>Set Key to: <code style="background:#eef; padding:2px 6px; border-radius:4px;">delivered[0].fact</code></li>
+        <li>Search "Show" → Add "Show Result"</li>
+        <li>Tap <strong>⋯</strong> → Name: <code style="background:#eef; padding:2px 6px; border-radius:4px;">Intermezzo Fact</code></li>
+        <li>Share icon → <strong>Add to Home Screen</strong></li>
+      </ol>
+    </div>
+    
+    <div class="note">
+      💡 <strong>TIP:</strong> After adding, long press the widget to customize icon color!
+    </div>
+    
+    <a href="https://gustavoibenc.github.io/intermezzos/" class="btn">🌐 Open Full Archive</a>
+  </div>
+  
+  <script>
+    // Auto-focus URL box for easy copy
+    document.querySelector('.url-box').addEventListener('click', function() {
+      const range = document.createRange();
+      range.selectNode(this);
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(range);
+      document.execCommand('copy');
+      alert('URL copied! Now paste it into Shortcuts app.');
+    });
+  </script>
+</body>
+</html>
