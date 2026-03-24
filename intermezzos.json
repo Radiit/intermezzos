@@ -474,6 +474,19 @@
       ],
       "deliveredAt": ["2026-03-24T20:48:00+08:00"],
       "count": 1
+    },
+    {
+      "id": "memory-synaptic-plasticity",
+      "topic": "Neuroscience/Memory Formation",
+      "fact": "Every memory you form relies on synaptic plasticity — the strengthening of connections between neurons through proteins called AMPARs. Harvard researchers (2025) developed EPSILON, a technique that tracks these proteins in real-time, revealing how memories physically embed themselves in the brain. Long-term memory formation requires CREB-dependent gene expression and new protein synthesis at activated synapses, verified through decades of peer-reviewed neuroscience research published in Nature Neuroscience and Physiological Reviews.",
+      "sources": [
+        "https://news.harvard.edu/gazette/story/2025/05/tracking-precisely-how-learning-memories-are-formed/",
+        "https://www.nature.com/articles/s41593-025-01922-5",
+        "https://journals.physiology.org/doi/full/10.1152/physrev.00014.2003",
+        "https://pubmed.ncbi.nlm.nih.gov/20223527/"
+      ],
+      "deliveredAt": ["2026-03-24T21:33:00+08:00"],
+      "count": 1
     }
   ],
   "topics": [
@@ -511,6 +524,7 @@
     "Renewable Energy/Solar Technology",
     "Ice Ages/Paleoclimatology",
     "Neuroscience/Dreams",
-    "Neuroscience/Synesthesia"
+    "Neuroscience/Synesthesia",
+    "Neuroscience/Memory Formation"
   ]
 }
