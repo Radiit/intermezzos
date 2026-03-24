@@ -427,6 +427,18 @@
       ],
       "deliveredAt": ["2026-03-24T17:14:00+08:00"],
       "count": 1
+    },
+    {
+      "id": "gut-microbiome-brain-evolution",
+      "topic": "Microbiome/Gut Health",
+      "fact": "Your gut microbes can directly influence how your brain evolves and functions. Northwestern University researchers (2026) transplanted gut microbes from humans, squirrel monkeys, and macaques into mice — those receiving microbes from larger-brained primates showed enhanced brain gene activity for energy production and learning. A 2025 systematic review of 15 studies confirmed depression links to reduced microbial diversity, anxiety to low levels of beneficial bacteria, and probiotics proving as effective as drug treatments for symptom relief.",
+      "sources": [
+        "https://www.sciencedaily.com/releases/2026/01/260105165806.htm",
+        "https://pubmed.ncbi.nlm.nih.gov/40018491/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11865252/"
+      ],
+      "deliveredAt": ["2026-03-24T18:17:00+08:00"],
+      "count": 1
     }
   ],
   "topics": [
