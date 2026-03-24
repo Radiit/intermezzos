@@ -330,6 +330,18 @@
       ],
       "deliveredAt": ["2026-03-24T09:36:00+08:00"],
       "count": 1
+    },
+    {
+      "id": "bacteriophage-ai-designed",
+      "topic": "Microbiology/Virology",
+      "fact": "In 2025, Stanford scientists used AI to design working viruses from scratch for the first time. Their AI model Evo studied 2 million bacteriophage genomes, then generated 302 new designs — 16 successfully infected and killed E. coli bacteria. These AI-created phages had novel gene arrangements never seen in nature, marking a major step toward custom-engineered treatments for antibiotic-resistant infections.",
+      "sources": [
+        "https://www.technologyreview.com/2025/09/17/1123801/ai-virus-bacteriophage-life/",
+        "https://www.sciencedaily.com/releases/2025/11/251117095635.htm",
+        "https://www.sciencenews.org/article/ai-genome-bacteria-phage"
+      ],
+      "deliveredAt": ["2026-03-24T10:21:00+08:00"],
+      "count": 1
     }
   ],
   "topics": [
