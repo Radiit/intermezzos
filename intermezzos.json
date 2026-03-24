@@ -415,6 +415,18 @@
       ],
       "deliveredAt": ["2026-03-24T16:13:00+08:00"],
       "count": 1
+    },
+    {
+      "id": "memory-overlapping-networks",
+      "topic": "Neuroscience/Memory",
+      "fact": "Your brain doesn't use separate pathways for different types of memory — episodic (personal experiences) and semantic (facts) retrieval activate the same overlapping neural regions. A 2026 Nature Human Behaviour study from Cambridge and Nottingham found no measurable difference in brain activity between these memory types during fMRI scans. Separately, IBS researchers discovered the hippocampus coordinates encoding and retrieval by aligning low-dimensional neural subspaces, while Nature Communications (2026) confirmed propagating brain waves synchronize sensory encoding with memory retrieval across the cortical hierarchy.",
+      "sources": [
+        "https://www.nature.com/articles/s41562-025-02390-4",
+        "https://www.sciencedaily.com/releases/2025/02/250203142523.htm",
+        "https://www.nature.com/articles/s41467-026-69068-x"
+      ],
+      "deliveredAt": ["2026-03-24T17:14:00+08:00"],
+      "count": 1
     }
   ],
   "topics": [
