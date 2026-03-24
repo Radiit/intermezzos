@@ -377,6 +377,18 @@
       ],
       "deliveredAt": ["2026-03-24T13:09:00+08:00"],
       "count": 1
+    },
+    {
+      "id": "crispr-safe-gene-switching",
+      "topic": "Genetic Engineering/Biotechnology",
+      "fact": "Two major CRISPR breakthroughs prove gene editing is becoming safer and more precise. UNSW scientists developed epigenome editing that turns genes on by removing methyl tags without cutting DNA, while Cleveland Clinic's Phase 1 trial showed single-dose CRISPR therapy safely lowered LDL cholesterol and triglycerides for 60+ days in patients resistant to existing medications, published in New England Journal of Medicine (2025).",
+      "sources": [
+        "https://www.sciencedaily.com/releases/2026/01/260104202813.htm",
+        "https://newsroom.clevelandclinic.org/2025/11/08/cleveland-clinic-first-in-human-trial-of-crispr-gene-editing-therapy-shown-to-safely-lower-cholesterol-and-triglycerides",
+        "https://innovativegenomics.org/news/crispr-clinical-trials-2025/"
+      ],
+      "deliveredAt": ["2026-03-24T14:10:00+08:00"],
+      "count": 1
     }
   ],
   "topics": [
