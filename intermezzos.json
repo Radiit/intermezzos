@@ -439,6 +439,18 @@
       ],
       "deliveredAt": ["2026-03-24T18:17:00+08:00"],
       "count": 1
+    },
+    {
+      "id": "mars-ice-age-cycles",
+      "topic": "Ice Ages/Paleoclimatology",
+      "fact": "Earth's ice ages are driven by subtle changes in our orbit called Milankovitch cycles — but Mars plays a surprising role. UC Riverside astronomers (2026) discovered Mars' gravitational tug, though tiny, measurably affects Earth's orbital eccentricity over thousands of years. Combined with axial tilt variations, these cycles alter how much summer sunlight hits northern latitudes. When summers get too cool, snow survives year-round, building ice sheets that trigger glacial periods — verified through peer-reviewed astronomy and climate modeling research.",
+      "sources": [
+        "https://earthsky.org/space/earths-ice-ages-mars-gravity-milankovitch-cycle/",
+        "https://news.ucr.edu/articles/2026/01/12/tiny-mars-big-impact-earths-climate",
+        "https://www.nature.com/articles/s43247-025-02867-0"
+      ],
+      "deliveredAt": ["2026-03-24T19:18:00+08:00"],
+      "count": 1
     }
   ],
   "topics": [
@@ -473,6 +485,7 @@
     "Ocean/Climate Change",
     "Animal Consciousness",
     "Neuroscience/Brain Training",
-    "Renewable Energy/Solar Technology"
+    "Renewable Energy/Solar Technology",
+    "Ice Ages/Paleoclimatology"
   ]
 }
