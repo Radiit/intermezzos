@@ -462,6 +462,18 @@
       ],
       "deliveredAt": ["2026-03-24T20:03:00+08:00"],
       "count": 1
+    },
+    {
+      "id": "synesthesia-brain-genetics",
+      "topic": "Neuroscience/Synesthesia",
+      "fact": "Synesthesia — where people hear colors or taste words — affects ~4% of the population and stems from both genetic and environmental factors. A 2025 twin study found synesthesia is 41-51% heritable, while a November 2024 Cerebral Cortex study using Human Connectome Project data revealed extensive brain structure and function differences in synesthetes. Six genes involved in axonogenesis (neuron connection formation) were identified, though no single \"synesthesia gene\" exists — each person's genetic combination is unique.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11567774/",
+        "https://www.nature.com/articles/s41398-025-03444-x",
+        "https://www.science.org/content/article/synesthesia-s-mysterious-mingling-senses-may-result-hyperconnected-neurons"
+      ],
+      "deliveredAt": ["2026-03-24T20:48:00+08:00"],
+      "count": 1
     }
   ],
   "topics": [
@@ -498,6 +510,7 @@
     "Neuroscience/Brain Training",
     "Renewable Energy/Solar Technology",
     "Ice Ages/Paleoclimatology",
-    "Neuroscience/Dreams"
+    "Neuroscience/Dreams",
+    "Neuroscience/Synesthesia"
   ]
 }
