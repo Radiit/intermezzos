@@ -401,6 +401,20 @@
       ],
       "deliveredAt": ["2026-03-24T15:11:00+08:00"],
       "count": 1
+    },
+    {
+      "id": "radon-invisible-killer",
+      "topic": "Health/Radiation Safety",
+      "fact": "Radon gas is the second leading cause of lung cancer overall and the #1 cause among non-smokers, killing ~21,000 Americans yearly. This radioactive gas forms naturally when uranium decays in bedrock and soil, then seeps through foundation cracks into homes. EPA and WHO data confirm radon causes 3-14% of all lung cancers, with risk multiplying dramatically for smokers exposed to high levels.",
+      "sources": [
+        "https://www.epa.gov/radon/health-risk-radon",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10760439/",
+        "https://www.lung.org/media/press-releases/fy25-radon-action-month-release",
+        "https://www.iaea.org/newscenter/news/what-is-radon-and-how-are-we-exposed-to-it",
+        "https://eos.org/research-spotlights/certain-rock-formations-can-lead-to-in-home-radon-risks"
+      ],
+      "deliveredAt": ["2026-03-24T16:13:00+08:00"],
+      "count": 1
     }
   ],
   "topics": [
