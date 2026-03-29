@@ -2,6 +2,17 @@
   "version": 1,
   "delivered": [
     {
+      "id": "avian-quantum-magnetoreception",
+      "topic": "Quantum Biology / Animal Navigation",
+      "fact": "Migrating birds navigate thousands of miles using actual quantum physics. Their eyes contain cryptochrome 4 proteins where single electrons become separated and remain quantum entangled for milliseconds — millions of times longer than man-made quantum systems at room temperature. This fragile quantum state is sensitive enough to detect the Earth's magnetic field. This isn't theory: it was experimentally verified at Oxford University and published March 2025, making birds the only known living thing that naturally uses quantum coherence as a sensory organ.",
+      "sources": [
+        "https://www.ox.ac.uk/news/science-blog/how-birds-sense-magnetic-field-earth-help-them-navigate",
+        "https://www.theguardian.com/science/2025/mar/23/they-have-no-one-to-follow-how-migrating-birds-use-quantum-mechanics-to-navigate"
+      ],
+      "deliveredAt": "2026-03-29T23:04:00Z",
+      "count": 1
+    },
+    {
       "id": "continental-drift-glacier-acceleration",
       "topic": "Geology / Plate Tectonics",
       "fact": "When the last Ice Age ended 11,000 years ago, melting glaciers removed so much weight from the continents that continental drift speed doubled for over 2,000 years. Published April 2025 in Nature, GPS and ice core data confirm that lighter continents slid faster across the mantle, triggering a global pulse of volcanic eruptions that lasted millenia. This shows surface ice levels directly control the speed of plate tectonics — an effect no one predicted existed.",
