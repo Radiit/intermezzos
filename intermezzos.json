@@ -3,6 +3,17 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Planetary Science / Europa Ocean",
+      "fact": "Jupiter's moon Europa holds a global subsurface ocean that is at least as salty as Earth's oceans, and very likely saltier. Magnetic induction measurements from Galileo and surface mineral analysis confirm dissolved salts reach concentrations comparable to the Dead Sea in some regions. This high salinity helps maintain the ocean in liquid state even at -3°C, and provides the electrochemical gradients needed for life. NASA's Europa Clipper mission launching this year will map exact salinity levels across the moon.",
+      "sources": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0019103520301366",
+        "https://www.jpl.nasa.gov/edu/resources/teachable-moment/exploring-the-next-frontier-in-our-search-for-life-with-europa-clipper/"
+      ],
+      "deliveredAt": "2026-03-29T18:34:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Cancer metastasis genetic programming",
       "fact": "Researchers confirmed last week that cancer metastasis is not random: colon tumour cells carry identifiable genetic patterns that pre-determine if they will spread through the body. This overturns decades of standard theory, and was published March 21 2026. This finding will allow early prediction of cancer spread risk before it occurs.",
       "sources": [
