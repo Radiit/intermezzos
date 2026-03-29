@@ -193,6 +193,17 @@
       "count": 1
     },
     {
+      "id": "great-oxidation-nickel-delay",
+      "topic": "Paleoclimatology / Ancient Earth",
+      "fact": "Earth waited an entire billion years after cyanobacteria invented photosynthesis before oxygen finally filled the atmosphere. A 2025 study confirmed this delay wasn't an accident: dissolved nickel in the ancient oceans poisoned the oxygen-producing microbes. Only when geological activity slowly removed nickel from the oceans could cyanobacteria multiply enough to trigger the Great Oxidation Event 2.4 billion years ago. This single element held back complex life on Earth for one fifth of our planet's entire history.",
+      "sources": [
+        "https://www.sciencedaily.com/releases/2025/11/251102011144.htm",
+        "https://www.nature.com/articles/s41467-021-23286-7"
+      ],
+      "deliveredAt": "2026-03-29T21:34:00Z",
+      "count": 1
+    },
+    {
       "id": "ceru4sn6-quantum-state-discovery",
       "topic": "Quantum Physics / Condensed Matter",
       "fact": "Researchers announced this week the discovery of an entirely new quantum state that bridges quantum criticality and topological order, observed in the semimetal CeRu₄Sn₆. Published March 2026, this hybrid state exhibits properties of both disordered quantum critical points and protected topological phases — something theorists predicted but no one had ever observed experimentally. This finding resolves a 15 year old open question in condensed matter physics, and could enable entirely new classes of quantum computing components that are immune to environmental noise.",
