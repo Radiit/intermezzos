@@ -2,6 +2,17 @@
   "version": 1,
   "delivered": [
     {
+      "id": "sleep-memory-consolidation-2026",
+      "topic": "Neuroscience / Sleep memory consolidation",
+      "fact": "It was long thought that sleep only passively preserves memories you already formed. Research published November 2025 confirmed sleep does far more: while you sleep, your brain actively rearranges stored memories to make learning new material faster afterwards. Sleep not only consolidates old memories — it actively primes the brain for improved learning the next day. This pre-learning effect was found to be specific to deep NREM slow wave sleep, with 7T fMRI scans showing physical synaptic rearrangement occurring overnight.",
+      "sources": [
+        "https://ueaeprints.uea.ac.uk/101048/3/guttesen_harrington_neuropsychologia_2026.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12576410/"
+      ],
+      "deliveredAt": "2026-03-30T17:49:00Z",
+      "count": 1
+    },
+    {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Skin stem cell inflammatory memory",
       "fact": "New research published March 2026 confirms human skin stem cells retain epigenetic memory of inflammation for over 12 months, even through repeated cell divisions. After inflammation passes, specific DNA regions remain permanently accessible, letting skin heal and respond up to 3x faster to future damage. This was not previously known — prior models assumed all epigenetic marks reset after cell division. The discovery helps explain both improved wound healing over time and why chronic inflammation accelerates skin aging.",
