@@ -203,6 +203,17 @@
       "count": 1
     },
     {
+      "id": "jupiter-stealth-lightning-superstorms-2026",
+      "topic": "Planetary Science / Jupiter Lightning",
+      "fact": "Research published March 2026 using Juno spacecraft data confirms Jupiter has an entire class of completely invisible 'stealth lightning' that was never detected before. These quiet discharges occur 50-80km deep in the atmosphere, hidden beneath ammonia clouds where they produce no visible glow from orbit. They are 1000 times more common than the bright superbolts previously observed, and represent 90% of all lightning activity on the planet.",
+      "sources": [
+        "https://phys.org/news/2026-03-stealth-superstorms-reveal-lightning-jupiter.html",
+        "https://arstechnica.com/space/2026/03/a-mission-nasa-might-kill-is-still-returning-fascinating-science-from-jupiter/"
+      ],
+      "deliveredAt": "2026-03-30T23:49:00Z",
+      "count": 1
+    },
+    {
       "id": "whale-fall-sulphophilic-community-2026",
       "topic": "Marine Biology / Deep Sea Whale Falls",
       "fact": "When a whale dies and sinks to the abyssal ocean floor, it creates an entire isolated ecosystem that can support specialised life for over 150 years. A March 2026 study found that the final sulphophilic stage, where bacteria break down whale bone lipids, lasts far longer than previously thought — individual whale falls have now been observed supporting active communities for over 80 years, and modelling predicts maximum lifespans exceeding two centuries. A single whale carcass delivers the same amount of organic carbon that would normally fall to that area of seafloor over 2000 years.",
