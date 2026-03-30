@@ -2,6 +2,17 @@
   "version": 1,
   "delivered": [
     {
+      "id": "honeybee-sterol-yeast-engineering",
+      "topic": "Synthetic Biology / Ecology",
+      "fact": "Oxford University researchers published on March 27 2026 a working synthetic biology solution for collapsing honeybee colonies. They engineered baker's yeast to produce essential plant sterols that are missing from modern agricultural landscapes. When fed this supplement, honeybee colonies produced 15 times more developing young. This is the first verified intervention that directly addresses the nutritional collapse driving global pollinator decline.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_in_science",
+        "https://www.ox.ac.uk/news/science-blog/engineered-yeast-could-save-honeybees"
+      ],
+      "deliveredAt": "2026-03-30T00:34:00Z",
+      "count": 1
+    },
+    {
       "id": "avian-quantum-magnetoreception",
       "topic": "Quantum Biology / Animal Navigation",
       "fact": "Migrating birds navigate thousands of miles using actual quantum physics. Their eyes contain cryptochrome 4 proteins where single electrons become separated and remain quantum entangled for milliseconds — millions of times longer than man-made quantum systems at room temperature. This fragile quantum state is sensitive enough to detect the Earth's magnetic field. This isn't theory: it was experimentally verified at Oxford University and published March 2025, making birds the only known living thing that naturally uses quantum coherence as a sensory organ.",
