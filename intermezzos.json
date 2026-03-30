@@ -204,6 +204,17 @@
     },
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Marine Biology / Hybrid Hydrothermal Vents",
+      "fact": "Scientists discovered the first ever hybrid hydrothermal vent system in September 2025 at Conical Seamount off Papua New Guinea. Unlike all previously known vents, this site simultaneously produces both magmatic heated vent fluid and cold hydrocarbon seepage in the same location. This creates an entirely unique ecological niche, supporting a completely endemic fauna community found nowhere else on Earth. It is the first time these two completely separate deep sea ecosystems have been found merged together.",
+      "sources": [
+        "https://www.nature.com/articles/s41598-025-17192-x",
+        "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2025.1649339/full"
+      ],
+      "deliveredAt": "2026-03-30T15:34:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Particle Physics / Neutrino Mass Ordering",
       "fact": "After 25 years of experiments, neutrino mass ordering was definitively resolved at 5 sigma confidence in March 2026. Combined analysis from T2K, NOvA and JUNO experiments confirmed the normal mass hierarchy: neutrino mass state 1 is the lightest, followed by 2, then 3. This closes one of the last remaining open questions in the Standard Model of particle physics. The result was announced simultaneously at three physics conferences worldwide.",
       "sources": [
