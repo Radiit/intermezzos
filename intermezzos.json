@@ -3,6 +3,17 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Archaeology / Göbekli Tepe Calendar",
+      "fact": "Göbekli Tepe, the 11,600 year old megalithic site in Turkey, contains the oldest known human calendar system. A peer reviewed study published November 2024 confirmed that carvings on the famous Pillar 43 describe an accurate lunisolar calendar with 12 lunar months plus 11 correction days. This calendar was already in use 6000 years before writing was invented, and matches the exact astronomical conditions at 8400 BC.",
+      "sources": [
+        "https://www.tandfonline.com/doi/full/10.1080/1751696X.2024.2373876",
+        "https://www.researchgate.net/publication/276320115_New_Possible_Astronomic_Alignments_at_the_Megalithic_Site_of_Gobekli_Tepe_Turkey"
+      ],
+      "deliveredAt": "2026-03-30T13:19:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Astrophysics / White Dwarf Crystallization",
       "fact": "When white dwarf stars cool down after burning out, their ultra-dense carbon/oxygen cores crystallize into solid structures — essentially turning entire stars into diamond spheres the size of Earth. This process releases latent heat that slows their cooling by roughly one billion years. When this effect was first properly accounted for in 2025, it raised the accepted measured age of the Milky Way galaxy by 1.3 billion years. Over 90% of all stars that have ever existed will end their lives this way, including our own Sun.",
       "sources": [
