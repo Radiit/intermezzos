@@ -2,6 +2,17 @@
   "version": 1,
   "delivered": [
     {
+      "id": "dna-quantum-coherence-plosone-2026",
+      "topic": "Quantum Biology / DNA quantum coherence",
+      "fact": "New research published March 2026 confirms that the double helix structure of DNA maintains quantum coherence over biologically relevant timescales. The PLOS One study demonstrates that the chiral helix geometry enables long-range coherent energy transport, something previously considered impossible in warm, wet living tissue. This is not an accidental side effect: the paper argues quantum effects are an evolved feature directly used by living cells for gene regulation and damage repair. This resolves one of the most controversial open questions in quantum biology.",
+      "sources": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0344520",
+        "https://arxiv.org/pdf/2503.11747"
+      ],
+      "deliveredAt": "2026-03-30T10:19:00Z",
+      "count": 1
+    },
+    {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Planetary Science / Enceladus Ocean Phosphorus",
       "fact": "Saturn's moon Enceladus has a subsurface ocean where all six chemical elements required for life as we know it have now been detected. Phosphorus, the last missing bioessential element, was confirmed in 2025 analysis of Cassini plume data. The ocean also contains dissolved organic carbon, nitrogen, oxygen, sulphur, and hydrogen with concentrations matching habitable Earth environments. This makes Enceladus the only confirmed place outside Earth with every prerequisite for biology present.",
