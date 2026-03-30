@@ -204,6 +204,17 @@
     },
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Physiology / Brown Fat Metabolism",
+      "fact": "Brown fat, the calorie-burning tissue humans lose as they age, relies on a previously unknown biological switch to activate. Published March 28 2026, researchers discovered that the SLIT3 protein splits into two separate fragments which build the dense blood vessel networks brown fat needs to burn energy. This mechanism was completely unrecognised until now, and is the first target found that directly controls brown fat mass in adult humans. Clinical trials are already underway to boost this pathway as a treatment for obesity and type 2 diabetes.",
+      "sources": [
+        "https://www.sciencedaily.com/releases/2026/03/260328124711.htm",
+        "https://www.nature.com/articles/s42255-026-00617-9"
+      ],
+      "deliveredAt": "2026-03-30T16:19:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Marine Biology / Hybrid Hydrothermal Vents",
       "fact": "Scientists discovered the first ever hybrid hydrothermal vent system in September 2025 at Conical Seamount off Papua New Guinea. Unlike all previously known vents, this site simultaneously produces both magmatic heated vent fluid and cold hydrocarbon seepage in the same location. This creates an entirely unique ecological niche, supporting a completely endemic fauna community found nowhere else on Earth. It is the first time these two completely separate deep sea ecosystems have been found merged together.",
       "sources": [
