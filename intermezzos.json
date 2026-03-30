@@ -203,6 +203,17 @@
       "count": 1
     },
     {
+      "id": "quantum-state-ceru4sn6-topological",
+      "topic": "Condensed Matter Physics / New Quantum State",
+      "fact": "Researchers published March 2026 the discovery of an entirely new quantum state that bridges quantum criticality and quantum topology in the semimetal CeRu₄Sn₆. This material exhibits properties of both regimes at the same time — something previously theorised but never observed experimentally. The existence of this intermediate state solves a 20 year old open problem in condensed matter physics, and may enable room temperature quantum computing architectures.",
+      "sources": [
+        "https://www.cas.org/resources/cas-insights/scientific-breakthroughs-2026-emerging-trends-watch",
+        "https://en.wikipedia.org/wiki/2026_in_science"
+      ],
+      "deliveredAt": "2026-03-30T14:06:00Z",
+      "count": 1
+    },
+    {
       "id": "glymphatic-system-sleep-washing",
       "topic": "Neuroscience/Sleep",
       "fact": "Every time you fall asleep, your brain literally washes itself. Slow neuron firing rhythms pump cerebrospinal fluid through brain tissue, flushing out metabolic waste and toxic proteins that build up while you're awake. This glymphatic system only activates properly during deep sleep — there is no substitute. A 2026 study also found brief moments of inattention during the day trigger tiny emergency cleaning bursts when your brain can't wait for bedtime.",
