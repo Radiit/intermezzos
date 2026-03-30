@@ -2,6 +2,17 @@
   "version": 1,
   "delivered": [
     {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Planetary Science / Mercury Core",
+      "fact": "Mercury's solid inner core is spinning slightly faster than the planet's surface — rotating once every 58.6 Earth days, while the core itself completes an extra full rotation every 1000 years. This was first measured in 2024 using gravity data from the MESSENGER mission. The ESA/JAXA BepiColombo spacecraft will arrive in Mercury orbit this November 2026 to map the core boundary with 10x higher precision, and confirm if this speed difference has remained constant over time.",
+      "sources": [
+        "https://www.newscientist.com/article/2508106-bepicolombo-mission-will-start-to-unpick-mercurys-secrets-in-2026/",
+        "https://science.nasa.gov/mission/bepicolombo/"
+      ],
+      "deliveredAt": "2026-03-30T11:05:22Z",
+      "count": 1
+    },
+    {
       "id": "dna-quantum-coherence-plosone-2026",
       "topic": "Quantum Biology / DNA quantum coherence",
       "fact": "New research published March 2026 confirms that the double helix structure of DNA maintains quantum coherence over biologically relevant timescales. The PLOS One study demonstrates that the chiral helix geometry enables long-range coherent energy transport, something previously considered impossible in warm, wet living tissue. This is not an accidental side effect: the paper argues quantum effects are an evolved feature directly used by living cells for gene regulation and damage repair. This resolves one of the most controversial open questions in quantum biology.",
