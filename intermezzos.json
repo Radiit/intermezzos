@@ -2,6 +2,17 @@
   "version": 1,
   "delivered": [
     {
+      "id": "ice-core-monthly-temperature-resolution",
+      "topic": "Paleoclimatology / Antarctic Ice Cores",
+      "fact": "Antarctic ice cores don't just record annual temperatures — they preserve weekly and even daily weather events from 100,000 years ago. High snow accumulation sites like Dome C capture individual snow storms, atmospheric dust pulses, and volcanic fallout with sub-monthly resolution. This means we can read actual individual weather days that happened when Neanderthals still walked the Earth. It is the highest resolution natural archive of past climate ever found.",
+      "sources": [
+        "https://www.antarcticglaciers.org/glaciers-and-climate/ice-cores/ice-core-basics/",
+        "https://egusphere.copernicus.org/preprints/2025/egusphere-2025-2037/"
+      ],
+      "deliveredAt": "2026-03-30T05:49:00Z",
+      "count": 1
+    },
+    {
       "id": "brain-glucose-energy-budget",
       "topic": "Neuroscience / Human Physiology",
       "fact": "The human brain makes up only 2% of your total body weight, yet it consumes 20-25% of all glucose and oxygen your body uses at rest. This ~20 watt power draw runs non-stop 24/7, even while you sleep. Almost all this energy goes into maintaining electrical gradients across neuron membranes, so they are always ready to fire. There is no idle mode for a brain.",
