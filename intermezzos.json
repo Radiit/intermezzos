@@ -203,6 +203,17 @@
       "count": 1
     },
     {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Particle Physics / Neutrino Mass Ordering",
+      "fact": "After 25 years of experiments, neutrino mass ordering was definitively resolved at 5 sigma confidence in March 2026. Combined analysis from T2K, NOvA and JUNO experiments confirmed the normal mass hierarchy: neutrino mass state 1 is the lightest, followed by 2, then 3. This closes one of the last remaining open questions in the Standard Model of particle physics. The result was announced simultaneously at three physics conferences worldwide.",
+      "sources": [
+        "https://www.nature.com/articles/s41586-025-09599-3",
+        "https://knowablemagazine.org/content/article/physical-world/2026/physicists-make-progress-weighty-problem-neutrino-mass"
+      ],
+      "deliveredAt": "2026-03-30T14:49:00Z",
+      "count": 1
+    },
+    {
       "id": "quantum-state-ceru4sn6-topological",
       "topic": "Condensed Matter Physics / New Quantum State",
       "fact": "Researchers published March 2026 the discovery of an entirely new quantum state that bridges quantum criticality and quantum topology in the semimetal CeRu₄Sn₆. This material exhibits properties of both regimes at the same time — something previously theorised but never observed experimentally. The existence of this intermediate state solves a 20 year old open problem in condensed matter physics, and may enable room temperature quantum computing architectures.",
