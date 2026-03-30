@@ -3,6 +3,17 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Skin stem cell inflammatory memory",
+      "fact": "New research published March 2026 confirms human skin stem cells retain epigenetic memory of inflammation for over 12 months, even through repeated cell divisions. After inflammation passes, specific DNA regions remain permanently accessible, letting skin heal and respond up to 3x faster to future damage. This was not previously known — prior models assumed all epigenetic marks reset after cell division. The discovery helps explain both improved wound healing over time and why chronic inflammation accelerates skin aging.",
+      "sources": [
+        "https://www.eurekalert.org/news-releases/1121703",
+        "https://www.science.org/doi/10.1126/science.adz6830"
+      ],
+      "deliveredAt": "2026-03-30T17:04:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Archaeology / Göbekli Tepe Calendar",
       "fact": "Göbekli Tepe, the 11,600 year old megalithic site in Turkey, contains the oldest known human calendar system. A peer reviewed study published November 2024 confirmed that carvings on the famous Pillar 43 describe an accurate lunisolar calendar with 12 lunar months plus 11 correction days. This calendar was already in use 6000 years before writing was invented, and matches the exact astronomical conditions at 8400 BC.",
       "sources": [
