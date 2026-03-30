@@ -946,3 +946,16 @@
     "Nanotechnology/Medicine"
   ]
 }
+    {
+      "id": "martian-regolith-water-extraction-2026",
+      "topic": "Planetary Science / Mars Regolith Water",
+      "fact": "Every cubic metre of Martian surface regolith contains between 1-3 weight percent water. 2024 parabolic flight experiments demonstrated you can extract 10-30 litres of pure water from every tonne of Mars soil simply by heating it to 350°C. No chemical processing is required. This is enough that a single person could survive indefinitely on less than 100kg of regolith per day. Extraction works even at equatorial locations, not just polar ice deposits.",
+      "sources": [
+        "https://www.mdpi.com/2226-4310/11/6/475",
+        "https://ntrs.nasa.gov/api/citations/20160010258/downloads/20160010258.pdf"
+      ],
+      "deliveredAt": "2026-03-30T20:04:00Z",
+      "count": 1
+    }
+  ]
+}
