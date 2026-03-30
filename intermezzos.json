@@ -203,6 +203,17 @@
       "count": 1
     },
     {
+      "id": "mycorrhizal-tree-communication",
+      "topic": "Ecology / Forest Biology",
+      "fact": "Trees are connected underground by a living internet of fungal threads called mycorrhizal networks. Mature 'mother trees' use these threads to send sugar, water, and even warning signals about insect attacks to younger seedlings. Confirmed in 2025 research, trees will actively prioritize their own offspring, and will even transfer nutrients to dying neighbouring trees before they fall. This network operates in real time, across entire forest ecosystems.",
+      "sources": [
+        "https://www.frontiersin.org/journals/forests-and-global-change/articles/10.3389/ffgc.2024.1512518/full",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4497361/"
+      ],
+      "deliveredAt": ["2026-03-30T10:04:00+08:00"],
+      "count": 1
+    },
+    {
       "id": "active-forgetting-neuroscience",
       "topic": "Neuroscience / Memory",
       "fact": "Forgetting is not a bug, it is the brain's default operating mode. Research published 2025 and confirmed January 2026 demonstrated that human memory does not passively decay: neurons actively disassemble and erase unused synapses on purpose. This isn't failure. Forgetting is how the brain generalizes, filters noise, and avoids being overwhelmed by every trivial detail it ever encountered. We didn't evolve to remember everything perfectly — we evolved to forget well.",
