@@ -203,6 +203,14 @@
       "count": 1
     },
     {
+      "id": "active-forgetting-neuroscience",
+      "topic": "Neuroscience / Memory",
+      "fact": "Forgetting is not a bug, it is the brain's default operating mode. Research published 2025 and confirmed January 2026 demonstrated that human memory does not passively decay: neurons actively disassemble and erase unused synapses on purpose. This isn't failure. Forgetting is how the brain generalizes, filters noise, and avoids being overwhelmed by every trivial detail it ever encountered. We didn't evolve to remember everything perfectly — we evolved to forget well.",
+      "sources": ["https://www.sciencedaily.com/releases/2026/01/260125083413.htm", "https://www.mdpi.com/2076-3425/15/12/1335"],
+      "deliveredAt": "2026-03-30T01:19:00Z",
+      "count": 1
+    },
+    {
       "id": "baader-meinhof-frequency-illusion",
       "topic": "Psychology",
       "fact": "Ever learn something new and suddenly see it everywhere? That's the Baader-Meinhof Phenomenon — a verified cognitive bias where your brain's selective attention makes rare things feel common once you're aware of them. Named by linguist Arnold Zwicky in 1994, it explains why spotting your new car model everywhere isn't coincidence; your brain just started flagging it as important.",
