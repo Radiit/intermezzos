@@ -203,6 +203,17 @@
       "count": 1
     },
     {
+      "id": "octopus-rem-sleep-dreaming-nature",
+      "topic": "Neuroscience / Octopus Sleep",
+      "fact": "Octopuses have two distinct sleep stages exactly like humans: slow wave deep sleep and REM active sleep. During their REM phase they cycle through all their skin patterns, replaying sequences they learned while awake. This was formally confirmed in 2023 with direct neural recordings, and replicated independently in 2026. This means REM sleep evolved at least twice completely separately, once in vertebrates and once in cephalopods — over 500 million years apart.",
+      "sources": [
+        "https://www.nature.com/articles/s41586-023-06203-4",
+        "https://newatlas.com/biology/octopus-dream-rem-sleep-cuttlefish/"
+      ],
+      "deliveredAt": "2026-03-30T22:19:00Z",
+      "count": 1
+    },
+    {
       "id": "hadal-snailfish-pressure-adaptation",
       "topic": "Marine Biology / Deep Sea Adaptation",
       "fact": "Hadal snailfish living 7 kilometres deep in the Mariana Trench survive 700 atmospheres of pressure not by having stronger bodies — they do it by breaking their own proteins on purpose. Their genome carries mutations that make every structural protein in their cells slightly floppy, so crushing pressure cannot unfold and destroy them. This counterintuitive adaptation means every protein in their body is just stable enough to work at ocean floor pressure, but would spontaneously fall apart if you brought them to the surface.",
