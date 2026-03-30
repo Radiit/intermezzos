@@ -2,6 +2,17 @@
   "version": 1,
   "delivered": [
     {
+      "id": "brain-glucose-energy-budget",
+      "topic": "Neuroscience / Human Physiology",
+      "fact": "The human brain makes up only 2% of your total body weight, yet it consumes 20-25% of all glucose and oxygen your body uses at rest. This ~20 watt power draw runs non-stop 24/7, even while you sleep. Almost all this energy goes into maintaining electrical gradients across neuron membranes, so they are always ready to fire. There is no idle mode for a brain.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC124895/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5959031/"
+      ],
+      "deliveredAt": "2026-03-30T04:19:00Z",
+      "count": 1
+    },
+    {
       "id": "honeybee-sterol-yeast-engineering",
       "topic": "Synthetic Biology / Ecology",
       "fact": "Oxford University researchers published on March 27 2026 a working synthetic biology solution for collapsing honeybee colonies. They engineered baker's yeast to produce essential plant sterols that are missing from modern agricultural landscapes. When fed this supplement, honeybee colonies produced 15 times more developing young. This is the first verified intervention that directly addresses the nutritional collapse driving global pollinator decline.",
