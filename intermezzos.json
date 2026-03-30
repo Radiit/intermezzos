@@ -2,6 +2,17 @@
   "version": 1,
   "delivered": [
     {
+      "id": "metallic-glass-amorphous-atomic-structure",
+      "topic": "Materials Science / Metallic Glasses",
+      "fact": "Metallic glasses are solid metals with no crystal structure — their atoms are arranged randomly like glass, yet they are 3 times stronger than steel while remaining flexible. Unlike ordinary metals which crack along crystal grain boundaries, amorphous metals have no weak points. They are also twice as hard as titanium, reflect 98% of radio waves, and do not rust. First created accidentally in 1960, modern formulations finally allow production in large enough sizes for real engineering use.",
+      "sources": [
+        "https://link.springer.com/article/10.1557/s43578-024-01480-9",
+        "https://www.mdpi.com/2079-6412/13/10/1689"
+      ],
+      "deliveredAt": "2026-03-30T06:34:00Z",
+      "count": 1
+    },
+    {
       "id": "ice-core-monthly-temperature-resolution",
       "topic": "Paleoclimatology / Antarctic Ice Cores",
       "fact": "Antarctic ice cores don't just record annual temperatures — they preserve weekly and even daily weather events from 100,000 years ago. High snow accumulation sites like Dome C capture individual snow storms, atmospheric dust pulses, and volcanic fallout with sub-monthly resolution. This means we can read actual individual weather days that happened when Neanderthals still walked the Earth. It is the highest resolution natural archive of past climate ever found.",
