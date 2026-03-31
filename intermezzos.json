@@ -143,6 +143,17 @@
       ],
       "deliveredAt": "2026-03-31T20:49:00Z",
       "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Voyager 1 telemetry recovery 2026",
+      "fact": "On March 31 2026 NASA confirmed full telemetry recovery for Voyager 1, after 17 months of only returning garbage data. Engineers successfully reactivated the backup X-band transmitter and resumed valid science downlink, after the primary communications computer suffered permanent bit rot failures 24 billion kilometres from Earth. This is the farthest any human-made computer has ever been repaired, with round trip signal delay at 45 hours for every command sent.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Voyager_1",
+        "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/"
+      ],
+      "deliveredAt": "2026-03-31T21:34:00Z",
+      "count": 1
     }
   ]
 }
