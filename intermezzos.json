@@ -3,6 +3,18 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Climate Science / Ocean Heat Memory",
+      "fact": "Over 90% of all excess heat trapped by greenhouse gases since 1970 has been absorbed by the world's oceans. This heat has a very long memory: even if all human emissions stopped completely tomorrow, the oceans would continue releasing this stored heat for at least another 35 to 40 years. This means approximately half of all warming that we have already committed to has not yet appeared in surface air temperatures. This lag effect was confirmed in January 2026 when the global ocean set yet another consecutive annual heat content record.",
+      "sources": [
+        "https://link.springer.com/article/10.1007/s00376-026-5876-0",
+        "https://www.sciencedaily.com/releases/2026/01/260114080328.htm",
+        "https://eos.org/research-and-developments/in-2025-the-ocean-stored-more-heat-than-weve-ever-recorded"
+      ],
+      "deliveredAt": "2026-03-31T02:49:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Nuclear Physics / Iron-56 Nuclear Stability",
       "fact": "Iron-56 is the endpoint of all nuclear fusion in stars. It has the lowest mass per nucleon and one of the highest binding energies of any nuclide, at 8.79 MeV per nucleon. This means no energy can be extracted by fusing iron into heavier elements — once a star starts fusing silicon into iron, it has literally run out of fuel, and will collapse into a supernova within hours. While nickel-62 has a slightly higher binding energy per nucleon, the astrophysical conditions required to produce it in meaningful quantities almost never exist.",
       "sources": [
