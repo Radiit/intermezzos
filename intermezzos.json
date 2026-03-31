@@ -2,6 +2,17 @@
   "version": 1,
   "delivered": [
     {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Planetary Science / Mars Solid Inner Core",
+      "fact": "In September 2025 researchers finally resolved the 50 year old mystery of Mars' core structure: Mars has a 600 km wide solid iron inner core, surrounded by a completely liquid outer core. This means Mars has exactly the same core layer structure as Earth, something all prior models had ruled out. The discovery was made using the last remaining seismic data from NASA's retired InSight lander, and published in *Nature* December 2025.",
+      "sources": [
+        "https://phys.org/news/2025-09-mars-solid-core-longstanding-planetary.html",
+        "https://www.nature.com/articles/s41586-025-09361-9"
+      ],
+      "deliveredAt": "2026-03-31T01:19:00Z",
+      "count": 1
+    },
+    {
       "id": "lunar-regolith-radiation-shielding-2025",
       "topic": "Space Engineering / Lunar Regolith Radiation Shielding",
       "fact": "Lunar soil (regolith) is an extremely effective radiation shield: just 2 metres of packed regolith blocks over 99% of galactic cosmic rays and solar particle events. An April 2025 study confirmed that heavy ion attenuation happens far faster than previously modelled, with 45 g/cm² thickness eliminating nearly all dangerous primary radiation. This means permanent lunar habitats will not need to carry heavy manufactured shielding: they can simply be buried under 1.5 to 2 metres of the dirt that is already everywhere on the Moon's surface.",
