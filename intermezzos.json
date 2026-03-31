@@ -2,6 +2,17 @@
   "version": 1,
   "delivered": [
     {
+      "id": "lunar-regolith-radiation-shielding-2025",
+      "topic": "Space Engineering / Lunar Regolith Radiation Shielding",
+      "fact": "Lunar soil (regolith) is an extremely effective radiation shield: just 2 metres of packed regolith blocks over 99% of galactic cosmic rays and solar particle events. An April 2025 study confirmed that heavy ion attenuation happens far faster than previously modelled, with 45 g/cm² thickness eliminating nearly all dangerous primary radiation. This means permanent lunar habitats will not need to carry heavy manufactured shielding: they can simply be buried under 1.5 to 2 metres of the dirt that is already everywhere on the Moon's surface.",
+      "sources": [
+        "https://www.sciencedirect.com/science/article/pii/S0032063325000832",
+        "https://pubs.aip.org/aip/adv/article/15/12/125310/3374171/Performance-of-hydrogen-rich-materials-in"
+      ],
+      "deliveredAt": "2026-03-31T00:34:00Z",
+      "count": 1
+    },
+    {
       "id": "carboniferous-oxygen-giant-insects-2026",
       "topic": "Paleontology / Carboniferous Giant Insects",
       "fact": "300 million years ago during the Carboniferous period, Earth's atmosphere contained 35% oxygen — almost double the 21% we have today. This is why dragonflies with 70cm wingspans and 2.5 metre long millipedes existed: insects breathe passively through tiny tracheal tubes, which place hard upper limits on maximum body size at modern oxygen levels. When oxygen concentrations dropped at the end of the Permian period, every one of these giant insect species went extinct permanently, and none have ever evolved again.",
