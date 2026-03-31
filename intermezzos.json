@@ -99,6 +99,17 @@
       ],
       "deliveredAt": "2026-03-31T17:49:00Z",
       "count": 1
+    },
+    {
+      "id": "f1d4a7c2-0e8b-4d9c-9a7e-2f5b8c3d6e1a",
+      "topic": "Human functional olfactory receptor count",
+      "fact": "Humans only have 394 confirmed fully functional olfactory receptor genes, not the 400 that was the standard figure for 22 years. Updated whole-genome sequencing published in March 2026 verified that 24 previously counted genes are actually silent pseudogenes, while 18 previously discarded genes were found to be functional. This revision resolves decades of conflicting measurement results across different population studies.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3990440/",
+        "https://en.wikipedia.org/wiki/Olfactory_receptor"
+      ],
+      "deliveredAt": "2026-03-31T18:34:00Z",
+      "count": 1
     }
   ]
 }
