@@ -3,6 +3,17 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Nuclear Physics / Iron-56 Nuclear Stability",
+      "fact": "Iron-56 is the endpoint of all nuclear fusion in stars. It has the lowest mass per nucleon and one of the highest binding energies of any nuclide, at 8.79 MeV per nucleon. This means no energy can be extracted by fusing iron into heavier elements — once a star starts fusing silicon into iron, it has literally run out of fuel, and will collapse into a supernova within hours. While nickel-62 has a slightly higher binding energy per nucleon, the astrophysical conditions required to produce it in meaningful quantities almost never exist.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Iron-56",
+        "https://en.wikipedia.org/wiki/Nuclear_binding_energy"
+      ],
+      "deliveredAt": "2026-03-31T02:04:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Planetary Science / Mars Solid Inner Core",
       "fact": "In September 2025 researchers finally resolved the 50 year old mystery of Mars' core structure: Mars has a 600 km wide solid iron inner core, surrounded by a completely liquid outer core. This means Mars has exactly the same core layer structure as Earth, something all prior models had ruled out. The discovery was made using the last remaining seismic data from NASA's retired InSight lander, and published in *Nature* December 2025.",
       "sources": [
