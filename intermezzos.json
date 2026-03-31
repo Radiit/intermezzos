@@ -121,6 +121,17 @@
       ],
       "deliveredAt": "2026-03-31T19:19:00Z",
       "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Sleep spindle heritability",
+      "fact": "Sleep spindles, the brain waves that appear during deep sleep, are among the most heritable human biological traits measured to date. Twin studies published May 2025 in Journal of Neuroscience confirmed that individual spindle frequency is 81% genetically determined, with almost no measurable environmental influence. This trait is so consistent that researchers can reliably identify an individual from sleep EEG recordings with over 97% accuracy, even months apart.",
+      "sources": [
+        "https://www.jneurosci.org/content/45/21/e1138242025",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12172134/"
+      ],
+      "deliveredAt": "2026-03-31T20:04:00Z",
+      "count": 1
     }
   ]
 }
