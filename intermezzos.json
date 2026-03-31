@@ -177,6 +177,17 @@
       ],
       "deliveredAt": "2026-04-01T00:04:00Z",
       "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Hadal snailfish vision adaptation",
+      "fact": "Hadal snailfish living at 6000-8000m ocean depth have completely lost all cone photoreceptors, retaining only an extremely modified single rod visual pigment tuned perfectly to the faint 480nm blue bioluminescence that is the only light present at those depths. February 2026 research published in Science Advances found this is not a degradation, but a targeted evolutionary optimisation where every single unnecessary visual gene was cleanly removed over 20 million years. This makes them the most extreme specialist vision system ever observed in any vertebrate.",
+      "sources": [
+        "https://www.science.org/doi/10.1126/sciadv.adx2596",
+        "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2435.70074"
+      ],
+      "deliveredAt": "2026-03-31T23:49:00Z",
+      "count": 1
     }
   ]
 }
