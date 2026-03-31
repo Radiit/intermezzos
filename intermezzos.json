@@ -237,6 +237,17 @@
       "count": 1
     },
     {
+      "id": "c1b8a7d2-1d7f-47c0-9c19-0d5a2f7c3b4e",
+      "topic": "Quantum Biology / Bird magnetoreception",
+      "fact": "Migratory birds can sense the Earth's magnetic field using quantum effects inside their eyes. In January 2026 Princeton researchers published definitive computational proof that the cryptochrome-4a protein in bird retinas forms well separated radical electron pairs which remain quantum coherent just long enough to detect the planet's extremely weak magnetic field. This is the only known biological system that actively uses quantum coherence for a sensory function.",
+      "sources": [
+        "https://chemistry.princeton.edu/news/hammes-schiffer-subotnik-provide-computational-proof-of-radical-pair-theory-on-bird-migration/",
+        "https://royalsocietypublishing.org/rsif/article/21/217/20240133/90529/Orientation-of-birds-in-radiofrequency-fields-in"
+      ],
+      "deliveredAt": "2026-03-31T08:04:00Z",
+      "count": 1
+    },
+    {
       "id": "metallic-glass-amorphous-atomic-structure",
       "topic": "Materials Science / Metallic Glasses",
       "fact": "Metallic glasses are solid metals with no crystal structure — their atoms are arranged randomly like glass, yet they are 3 times stronger than steel while remaining flexible. Unlike ordinary metals which crack along crystal grain boundaries, amorphous metals have no weak points. They are also twice as hard as titanium, reflect 98% of radio waves, and do not rust. First created accidentally in 1960, modern formulations finally allow production in large enough sizes for real engineering use.",
