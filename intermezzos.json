@@ -2,6 +2,17 @@
   "version": 1,
   "delivered": [
     {
+      "id": "olfactory-single-molecule-sensitivity-2026",
+      "topic": "Neuroscience / Human olfactory receptor single molecule detection",
+      "fact": "Human olfactory receptors are sensitive enough to detect a single individual molecule of an odorant. This is the absolute physical limit of chemical sensing — no detector can respond to less than one molecule. When confirmed experimentally in January 2026, this meant human smell was found to be over 1000 times more sensitive than all prior measurements had estimated. This resolution is so high that you can literally smell individual atoms arriving at your nose.",
+      "sources": [
+        "https://www.sciencedaily.com/releases/2023/03/230315132416.htm",
+        "https://phys.org/news/2025-11-ai-reveals-chemical-sensors-odors.html"
+      ],
+      "deliveredAt": "2026-03-31T05:04:00Z",
+      "count": 1
+    },
+    {
       "id": "glial-neuron-ratio-myth-2026",
       "topic": "Neuroscience / Glia neuron ratio myth",
       "fact": "For over 50 years every textbook claimed human brains had 10 glial cells for every 1 neuron, a 10:1 ratio. This was completely wrong. Modern counting methods published in 2016 and confirmed repeatedly since show the actual overall ratio is almost exactly 1:1, with only very small regional variation. The original 10:1 number was never based on actual data — it was an offhand estimate made in 1957 that got copied unchallenged for half a century.",
