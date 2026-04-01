@@ -155,6 +155,17 @@
       "count": 1
     },
     {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Axolotl limb regeneration macrophage requirement",
+      "fact": "Contrary to the common assumption that regeneration requires suppressing inflammation, axolotls absolutely require active macrophages to regrow entire limbs. If macrophages are depleted at any point during the first 72 hours after amputation, regeneration completely fails and the wound just scars over exactly like a mammal. Macrophages are not just cleaning up debris — they orchestrate the entire signalling environment that triggers blastema formation, the specialised mass of undifferentiated cells that grows into the replacement limb.",
+      "sources": [
+        "https://www.pnas.org/content/110/23/9415",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4895312/"
+      ],
+      "deliveredAt": "2026-04-01T17:49:00Z",
+      "count": 1
+    },
+    {
       "id": "77f0a3c9-12d4-4b8e-9110-82c7d0f189aa",
       "topic": "Geomagnetic reversal duration",
       "fact": "New paleomagnetic analysis published February 2026 found that some ancient Earth magnetic field reversals lasted as long as 70,000 years, three times longer than previous average estimates. These extremely slow transitions are recorded in 40 million year old Eocene sediment cores, during which the global magnetic field dropped to only 28% of modern strength for thousands of years. This work was independently verified across two separate studies published in Geophysical Research Letters and confirmed by NOAA's 2025 World Magnetic Model team.",
