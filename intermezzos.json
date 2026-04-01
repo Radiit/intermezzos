@@ -2,6 +2,17 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Deep sea black coral symbiosis",
+      "fact": "In December 2025 researchers discovered that deep sea black corals maintain a stable obligate symbiosis with specialized bacteria that have lost 70% of their original genome. Unlike shallow corals which rely on photosynthetic algae, these corals live at 1000m depth with no sunlight, and their bacterial partners have become completely dependent, unable to survive outside the coral host. This is the most extreme genome reduction ever observed in a marine animal symbiont.",
+      "sources": [
+        "https://phys.org/news/2025-12-reveal-deep-sea-black-coral.html",
+        "https://www.nature.com/articles/s41467-024-53855-5"
+      ],
+      "deliveredAt": "2026-04-01T08:04:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Squid giant axon local RNA editing",
       "fact": "Unlike every other animal studied, squid do not perform all RNA editing inside the cell nucleus. Instead they actively edit over 60,000 different RNA sites locally inside the giant axon itself, far away from the cell body. This allows them to reconfigure neural protein function on demand at individual synapses, without altering the original genetic code. This mechanism was first confirmed in 2020 at the Marine Biological Laboratory, and has since been verified across all decapod cephalopod species.",
       "sources": [
