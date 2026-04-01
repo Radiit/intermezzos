@@ -2,6 +2,17 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Sodium ion battery hydrated cathode breakthrough",
+      "fact": "In February 2026 researchers discovered that leaving natural bound water inside sodium ion battery cathode materials almost doubles their energy storage capacity. Contrary to 30 years of standard practice which required fully drying all battery components, the water molecules act as a structural stabiliser allowing sodium ions to move much faster through the material. This single change brings sodium ion energy density up to 75% of modern lithium ion cells, at one fifth the raw material cost.",
+      "sources": [
+        "https://www.sciencedaily.com/releases/2026/02/260218031603.htm",
+        "https://www.technologyreview.com/2026/01/12/1129991/sodium-ion-batteries-2026-breakthrough-technology/"
+      ],
+      "deliveredAt": "2026-04-01T10:19:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Lunar regolith oxygen extraction breakthrough",
       "fact": "In June 2025 Sierra Space successfully demonstrated fully automated carbothermal reduction of lunar regolith simulant, extracting breathable oxygen under exact lunar vacuum and temperature conditions. This is the first end-to-end demonstration that works without pre-processing or chemical additives, producing one kilogram of oxygen for every 3.5 kilograms of regolith processed. The system is designed to operate unattended for months, and is currently scheduled for flight demonstration on the lunar surface in late 2027.",
       "sources": [
