@@ -2,6 +2,17 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Hummingbird torpor minimum body temperature",
+      "fact": "Every night hummingbirds enter torpor, dropping their body temperature by over 26°C to survive without feeding. The black metaltail hummingbird has been recorded reaching just 3.26°C, the coldest body temperature ever measured in any bird or non-hibernating mammal. Unlike hibernation which lasts weeks, they do this every single night, and can fully rewarm themselves back to active operating temperature in less than 30 minutes each morning. They can also actively adjust how deep they enter torpor based on energy reserves and overnight conditions.",
+      "sources": [
+        "https://www.science.org/content/article/survive-frigid-nights-hummingbirds-cool-themselves-record-low-temperatures",
+        "https://www.sciencenews.org/article/hummingbirds-black-metaltail-cold-torpor"
+      ],
+      "deliveredAt": "2026-04-01T20:50:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Mycorrhizal network overnight carbon transfer timing",
       "fact": "Using stable isotope tracking in intact forest stands, researchers verified that most carbon transfer between connected trees happens exclusively overnight. While trees photosynthesise and store carbon during the day, nearly all movement through underground fungal networks occurs after sunset, following source-sink gradients. This timing was consistent across both same-species and mixed-species tree pairs, with individual carbon molecules travelling up to 35 meters through the network in a single night.",
       "sources": [
