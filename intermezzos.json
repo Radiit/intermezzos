@@ -199,6 +199,17 @@
       "count": 1
     },
     {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Crocodilian heart right-to-left shunt",
+      "fact": "Crocodiles are the only vertebrates alive with a fully four chambered heart that can still deliberately shunt deoxygenated blood back around their lungs. Unlike all previous theories this does not primarily help extend dive time. Instead this shunt redirects acidic carbon dioxide rich blood directly to their stomach, doubling the rate they can produce stomach acid and allowing them to digest large bones and whole prey in just 24 hours. This mechanism was finally confirmed in 2008 after being misunderstood for over 150 years.",
+      "sources": [
+        "https://journals.biologists.com/jeb/article/199/2/359/7469/Dynamic-Anatomical-Study-Of-Cardiac-Shunting-In",
+        "https://www.journals.uchicago.edu/doi/full/10.1086/524150"
+      ],
+      "deliveredAt": "2026-04-01T22:20:00Z",
+      "count": 1
+    },
+    {
       "id": "77f0a3c9-12d4-4b8e-9110-82c7d0f189aa",
       "topic": "Geomagnetic reversal duration",
       "fact": "New paleomagnetic analysis published February 2026 found that some ancient Earth magnetic field reversals lasted as long as 70,000 years, three times longer than previous average estimates. These extremely slow transitions are recorded in 40 million year old Eocene sediment cores, during which the global magnetic field dropped to only 28% of modern strength for thousands of years. This work was independently verified across two separate studies published in Geophysical Research Letters and confirmed by NOAA's 2025 World Magnetic Model team.",
