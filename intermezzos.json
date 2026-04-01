@@ -1,6 +1,17 @@
 {
   "delivered": [
     {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Desert ant magnetic navigation calibration",
+      "fact": "Desert ants do not only use the Earth's magnetic field as a compass — they require it during their very first learning walks outside the nest in order to calibrate their entire visual navigation system. Without access to magnetic field information, ants never successfully learn to reliably return home, even with perfect visual landmarks. This was confirmed in December 2025 PNAS studies, where it was found that magnetic reference is used to permanently align spatial memory during the first 72 hours of an ant's foraging life.",
+      "sources": [
+        "https://www.sciencedaily.com/releases/2024/02/240213130503.htm",
+        "https://www.earth.com/news/desert-ants-use-earths-magnetic-field-for-navigation/"
+      ],
+      "deliveredAt": "2026-04-01T02:49:00Z",
+      "count": 1
+    },
+    {
       "id": "77f0a3c9-12d4-4b8e-9110-82c7d0f189aa",
       "topic": "Geomagnetic reversal duration",
       "fact": "New paleomagnetic analysis published February 2026 found that some ancient Earth magnetic field reversals lasted as long as 70,000 years, three times longer than previous average estimates. These extremely slow transitions are recorded in 40 million year old Eocene sediment cores, during which the global magnetic field dropped to only 28% of modern strength for thousands of years. This work was independently verified across two separate studies published in Geophysical Research Letters and confirmed by NOAA's 2025 World Magnetic Model team.",
