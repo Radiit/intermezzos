@@ -2,6 +2,17 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Artificial photosynthesis efficiency breakthrough",
+      "fact": "In April 2025 researchers at Julius-Maximilians-Universität Würzburg and Yonsei University demonstrated an artificial photosynthesis system that achieves 15.2% solar-to-hydrogen efficiency, crossing the 15% threshold considered viable for commercial deployment. This system uses a hybrid molecular catalyst architecture that operates stably for over 1000 hours without degradation, matching the energy density performance of modern solar panels while producing directly storable hydrogen fuel instead of electricity.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10807655/",
+        "https://www.prv-engineering.co.uk/artificial-photosynthesis-breakthrough-clean-energy/"
+      ],
+      "deliveredAt": "2026-04-01T14:04:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Carbon negative concrete enzyme curing breakthrough",
       "fact": "In January 2026 researchers demonstrated a carbon-negative concrete material that uses naturally occurring carbonic anhydrase enzyme to absorb atmospheric CO₂ while curing. Instead of releasing carbon during production, every tonne of this material permanently locks away 230kg of CO₂ as solid mineral carbonate. It reaches full structural strength in 12 hours, matches standard concrete performance, and requires no modifications to existing construction equipment or processes.",
       "sources": [
