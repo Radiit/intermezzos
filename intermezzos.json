@@ -1,6 +1,17 @@
 {
   "delivered": [
     {
+      "id": "croc-heart-shunt-digestion-20260402",
+      "topic": "Crocodile cardiac shunt function",
+      "fact": "Unlike every other four-chambered heart animal, crocodiles have an active right-to-left blood shunt that bypasses their lungs entirely. This is not a defect: it evolved deliberately to redirect CO₂ rich blood directly to their stomach, where it powers production of stomach acid 10x faster than any mammal, letting them dissolve bone and large prey.",
+      "sources": [
+        "https://www.journals.uchicago.edu/doi/full/10.1086/524150",
+        "https://pubmed.ncbi.nlm.nih.gov/9317958/"
+      ],
+      "deliveredAt": "2026-04-02T07:50:00+08:00",
+      "count": 1
+    },
+    {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "naked mole rat cancer resistance",
       "fact": "It was discovered this year that naked mole rats do not actually *never* get cancer — they just require three simultaneous genetic failures to form tumours, whereas mice need only one. Even then only 30% develop tumours, and they grow 10x slower than in other mammals.",
