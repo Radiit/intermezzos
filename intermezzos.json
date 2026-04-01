@@ -2,6 +2,17 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Honeybee nutritional breakthrough",
+      "fact": "Researchers at University of Oxford have engineered ordinary yeast to produce the missing sterol compounds that modern agricultural pollen lacks. Honeybee colonies fed this supplement successfully reared brood and grew up to 15 times better than control groups given standard commercial bee food. This solves a longstanding problem with artificial bee feeds which were always nutritionally incomplete despite having sufficient protein and sugar. The yeast is already food-safe and works as a simple dry powder additive.",
+      "sources": [
+        "https://www.nature.com/articles/s41586-025-09431-y",
+        "https://www.ox.ac.uk/news/2025-08-20-saving-bees-superfoods-new-engineered-supplement-found-boost-colony-reproduction"
+      ],
+      "deliveredAt": "2026-04-01T08:49:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Deep sea black coral symbiosis",
       "fact": "In December 2025 researchers discovered that deep sea black corals maintain a stable obligate symbiosis with specialized bacteria that have lost 70% of their original genome. Unlike shallow corals which rely on photosynthetic algae, these corals live at 1000m depth with no sunlight, and their bacterial partners have become completely dependent, unable to survive outside the coral host. This is the most extreme genome reduction ever observed in a marine animal symbiont.",
       "sources": [
