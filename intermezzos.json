@@ -2,6 +2,17 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Octopus sleep state cycles",
+      "fact": "Octopuses have two distinct sleep states, just like humans: quiet deep sleep, and an active REM-like sleep state. During active sleep their skin changes colour patterns, their eyes move, and their arms twitch exactly like when they are awake. Each sleep cycle lasts roughly 30 minutes total, with the active dreaming phase only lasting 60 to 90 seconds at a time. Octopuses spend less than 5% of their total sleep time in this active dreaming state.",
+      "sources": [
+        "https://www.nature.com/articles/s41586-023-06203-4",
+        "https://www.sciencedirect.com/science/article/pii/S2589004221001917"
+      ],
+      "deliveredAt": "2026-04-01T21:35:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Hummingbird torpor minimum body temperature",
       "fact": "Every night hummingbirds enter torpor, dropping their body temperature by over 26°C to survive without feeding. The black metaltail hummingbird has been recorded reaching just 3.26°C, the coldest body temperature ever measured in any bird or non-hibernating mammal. Unlike hibernation which lasts weeks, they do this every single night, and can fully rewarm themselves back to active operating temperature in less than 30 minutes each morning. They can also actively adjust how deep they enter torpor based on energy reserves and overnight conditions.",
       "sources": [
