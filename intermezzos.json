@@ -2,6 +2,17 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Mars solid inner core confirmation",
+      "fact": "In December 2025 final analysis of NASA InSight mission seismic data confirmed Mars has a 600 km radius solid iron-nickel inner core, surrounded by a fully liquid outer core. This resolved a 50 year old debate about Mars interior structure, and explains why the planet lost its global magnetic field 4 billion years ago. The measurements were independently verified and published simultaneously in both Nature and Science journals.",
+      "sources": [
+        "https://www.nature.com/articles/s41586-025-09361-9",
+        "https://phys.org/news/2025-09-mars-solid-core-longstanding-planetary.html"
+      ],
+      "deliveredAt": "2026-04-01T05:04:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Fusion plasma breakthrough",
       "fact": "In March 2026 China's EAST tokamak team experimentally verified a long-theorised density-free plasma regime, achieving stable operation at 1.3–1.65x the Greenwald limit that was previously considered the hard maximum density for fusion reactors. This removes one of the fundamental engineering bottlenecks for commercial fusion power.",
       "sources": [
