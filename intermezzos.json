@@ -203,6 +203,17 @@
       "count": 1
     },
     {
+      "id": "mantis-shrimp-acceleration-20260402",
+      "topic": "Mantis shrimp punch acceleration mechanics",
+      "fact": "A mantis shrimp strikes with an acceleration exceeding 100,000 g — over five thousand times the force of gravity. This is the fastest recorded movement of any living animal, equivalent to a car reaching 95 km/h in less than one millisecond. Each strike generates four separate force peaks: the initial claw impact, followed immediately by the collapse of a cavitation bubble, then repeating for the second claw. The entire sequence completes in under 800 microseconds, producing peak forces of 1500 N which is 2500 times the animal's own body weight.",
+      "sources": [
+        "https://www.pnas.org/doi/10.1073/pnas.2026833118",
+        "https://pateklab.biology.duke.edu/research/mechanics-of-ultrafast-movement/mechanics-of-movement-mantis-shrimp/"
+      ],
+      "deliveredAt": "2026-04-02T10:20:00Z",
+      "count": 1
+    },
+    {
       "id": "komodo-venom-20260402",
       "topic": "Komodo dragon venom mechanism",
       "fact": "Contrary to long held popular belief, Komodo dragons do not kill prey using bacteria in their saliva. They are true venomous animals, with dedicated venom glands running along their lower jaw. Their venom is not neurotoxic: it instead targets blood vessels, lowering blood pressure dramatically and preventing clotting so prey bleeds out rapidly. The bacteria myth was completely debunked in formal histological studies published in July 2025.",
