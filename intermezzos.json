@@ -2,6 +2,17 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Cockroach neural decision speed",
+      "fact": "Cockroaches make final escape decisions in less than 40 milliseconds — using only 2-3 sensory input spikes. Modern sparse AI architectures are now directly copying this biological design, as shown in 2024 Science Robotics research where these models outperformed standard deep learning on low-sensor data tasks while using 1/100th the compute.",
+      "sources": [
+        "https://reelmind.ai/blog/cockroaches-google-ai-bizarre-but-fascinating",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7788088/"
+      ],
+      "deliveredAt": "2026-04-03T03:20:00+08:00",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Platypus venom pain activation mechanism",
       "fact": "Male platypus venom does not damage tissue directly — it forces pain nerves into permanent full activation by opening every single sodium ion channel at once. This creates an unblockable pain signal that standard opioid painkillers cannot suppress. There is no swelling, no physical damage, just pure unfiltered pain that can last for weeks. This is the only known vertebrate venom that works this way, and it evolved exclusively for fighting other males during mating season.",
       "sources": [
