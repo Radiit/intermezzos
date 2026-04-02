@@ -710,6 +710,18 @@
       ],
       "deliveredAt": "2026-04-01T01:19:00Z",
       "count": 1
+    },
+    {
+      "id": "gecko-adhesion-van-der-waals-20260402",
+      "topic": "Gecko adhesion van der Waals mechanism",
+      "fact": "Geckos do not use glue, suction, or static electricity to climb walls. Instead every single one of their foot hairs splits into 1000 nanoscale spatula tips, each so small that van der Waals intermolecular forces become strong enough to hold weight. A single gecko has over 1 billion of these tiny contact points, generating enough total adhesive force to support 130 kg. This mechanism works perfectly on every known surface, including Teflon, in vacuum, and at extreme temperatures.",
+      "sources": [
+        "https://www.pnas.org/doi/10.1073/pnas.192252799",
+        "https://pubmed.ncbi.nlm.nih.gov/12198184/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9256082/"
+      ],
+      "deliveredAt": "2026-04-02T12:35:00.000Z",
+      "count": 1
     }
   ]
 }
