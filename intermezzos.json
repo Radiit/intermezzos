@@ -204,6 +204,17 @@
     },
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Bumblebee flight muscle efficiency",
+      "fact": "Bumblebee flight muscle is the most powerful biological muscle known per unit mass, producing over 100 Watts per kilogram. This is almost 4x higher peak power output than human skeletal muscle. Contrary to popular myth their flight is actually extremely inefficient aerodynamically — they overcome this entirely with raw muscle power. Before taking off in cold conditions they will shiver their flight muscles for up to 15 minutes to warm them to operating temperature.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/9319101/",
+        "https://www.sciencedaily.com/releases/2009/05/090507194511.htm"
+      ],
+      "deliveredAt": "2026-04-02T15:35:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Lunar regolith oxygen extraction breakthrough",
       "fact": "In June 2025 Sierra Space successfully demonstrated fully automated carbothermal reduction of lunar regolith simulant, extracting breathable oxygen under exact lunar vacuum and temperature conditions. This is the first end-to-end demonstration that works without pre-processing or chemical additives, producing one kilogram of oxygen for every 3.5 kilograms of regolith processed. The system is designed to operate unattended for months, and is currently scheduled for flight demonstration on the lunar surface in late 2027.",
       "sources": [
