@@ -201,6 +201,18 @@
     },
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Turritopsis dohrnii life cycle reversal",
+      "fact": "The immortal jellyfish *Turritopsis dohrnii* is the only known animal capable of fully reversing its life cycle at any adult age. When injured, stressed or starved it will completely transform back into a juvenile polyp colony, resetting every cell in its body to an undifferentiated stem cell state. This process can repeat indefinitely in laboratory conditions. Unlike popular myth it does not live forever in the wild: almost all individuals die of predation or disease before they ever use this ability.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39719736/",
+        "https://www.pnas.org/doi/10.1073/pnas.2118763119",
+        "https://www.biorxiv.org/content/10.1101/2025.07.02.660568v1"
+      ],
+      "deliveredAt": "2026-04-02T03:35:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Mars solid inner core confirmation",
       "fact": "In December 2025 final analysis of NASA InSight mission seismic data confirmed Mars has a 600 km radius solid iron-nickel inner core, surrounded by a fully liquid outer core. This resolved a 50 year old debate about Mars interior structure, and explains why the planet lost its global magnetic field 4 billion years ago. The measurements were independently verified and published simultaneously in both Nature and Science journals.",
       "sources": [
