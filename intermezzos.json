@@ -203,6 +203,17 @@
       "count": 1
     },
     {
+      "id": "electric-eel-neural-timing-20260402",
+      "topic": "Electric eel discharge neural timing compensation",
+      "fact": "Nerve signals travel far too slowly to trigger all of an electric eel's electrocytes at the same time. To solve this, the eel does not speed up signals - it intentionally slows down neural impulses to the closest parts of the electric organ. By carefully delaying each signal by exactly the right amount, every single electrocyte fires perfectly synchronized within 2 milliseconds, producing the full 860 volt discharge. This is one of the most precise neural timing mechanisms known in any animal.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6436395/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6646469/"
+      ],
+      "deliveredAt": "2026-04-02T11:05:00Z",
+      "count": 1
+    },
+    {
       "id": "mantis-shrimp-acceleration-20260402",
       "topic": "Mantis shrimp punch acceleration mechanics",
       "fact": "A mantis shrimp strikes with an acceleration exceeding 100,000 g — over five thousand times the force of gravity. This is the fastest recorded movement of any living animal, equivalent to a car reaching 95 km/h in less than one millisecond. Each strike generates four separate force peaks: the initial claw impact, followed immediately by the collapse of a cavitation bubble, then repeating for the second claw. The entire sequence completes in under 800 microseconds, producing peak forces of 1500 N which is 2500 times the animal's own body weight.",
