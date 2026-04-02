@@ -2,6 +2,18 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Axolotl limb regeneration positional memory",
+      "fact": "In May 2025 researchers finally identified the molecular positional code that lets axolotls regrow exactly the correct limb, at exactly the correct length. This is not stored locally at the wound site: when an axolotl loses a limb, every single cell across its entire body receives the positional signal, not just cells near the injury. They also discovered that it is intentionally low levels of the retinoic acid molecule, not high levels, that correctly sets the regrowth boundary.",
+      "sources": [
+        "https://www.nature.com/articles/s41586-025-09036-5",
+        "https://www.sciencedaily.com/releases/2025/05/250521124120.htm",
+        "https://www.nsf.gov/news/new-axolotl-study-gives-researchers-leg-work-towards-limb"
+      ],
+      "deliveredAt": "2026-04-02T04:20:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Wood frog extreme freeze tolerance",
       "fact": "Wood frogs can survive up to 7 months completely frozen solid, with 70% of their total body water turned to ice. They do this by producing natural glucose cryoprotectant which stops ice crystals from rupturing cell walls. While frozen their heart stops entirely, they have no measurable brain activity, and they do not breathe. They can thaw and resume normal full function within 10 hours when temperatures rise.",
       "sources": [
