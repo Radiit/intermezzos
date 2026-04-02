@@ -2,6 +2,18 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Pistol shrimp cavitation bubble temperature",
+      "fact": "When a pistol shrimp snaps its claw, it creates a tiny cavitation bubble that collapses in less than half a millisecond. At the exact moment of collapse, the temperature inside this microscopic bubble peaks at approximately 4700 Kelvin — almost as hot as the surface of the Sun. This extreme temperature only exists for less than a single nanosecond, over an area smaller than the width of a human hair. The snap itself produces 218 decibels of sound underwater, loud enough to stun or kill small fish from over two meters away.",
+      "sources": [
+        "https://www.nature.com/articles/s41598-017-14312-0",
+        "http://large.stanford.edu/courses/2017/ph240/nag2/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10813229/"
+      ],
+      "deliveredAt": "2026-04-02T05:05:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Axolotl limb regeneration positional memory",
       "fact": "In May 2025 researchers finally identified the molecular positional code that lets axolotls regrow exactly the correct limb, at exactly the correct length. This is not stored locally at the wound site: when an axolotl loses a limb, every single cell across its entire body receives the positional signal, not just cells near the injury. They also discovered that it is intentionally low levels of the retinoic acid molecule, not high levels, that correctly sets the regrowth boundary.",
       "sources": [
