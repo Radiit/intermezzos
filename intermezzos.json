@@ -2,6 +2,17 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "African wild dog sneeze quorum voting",
+      "fact": "African wild dogs vote on when to start hunting using sneezes. Before every hunt the pack will gather in a social rally; each dog that agrees to depart will sneeze once. The pack will leave only when a quorum threshold is reached. This threshold is not fixed: if a dominant alpha sneezes, only one or two extra sneezes are required. If only subordinate members are voting, a majority of the pack must sneeze before the hunt begins.",
+      "sources": [
+        "https://royalsocietypublishing.org/rspb/article/284/1862/20170347",
+        "https://www.nationalgeographic.com/animals/article/african-wild-dogs-vote-by-sneezing"
+      ],
+      "deliveredAt": "2026-04-02T23:50:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Human blind spot neural filling mechanism",
       "fact": "Every human has a permanent 6° blind spot in each eye where the optic nerve exits the retina, yet you never perceive a hole in your vision. Your brain does not guess or interpolate edges — it actively predicts and fabricates full continuous visual input for this region, borrowing pattern information from surrounding areas. This filling-in process is so convincing that you can not distinguish real visual input from the constructed content inside the blind spot. It works even for moving objects and complex textures, and was only properly confirmed in 2024 using cross-sensory masking experiments.",
       "sources": [
