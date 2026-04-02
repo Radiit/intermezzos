@@ -199,6 +199,17 @@
       "count": 1
     },
     {
+      "id": "wood-frog-freeze-tolerance-20260402",
+      "topic": "Wood frog subzero body freezing adaptation",
+      "fact": "Wood frogs can survive being completely frozen solid for up to 8 months every year. When temperatures drop below freezing, up to 70% of the water in their body turns to solid ice: their heart stops completely, they stop breathing, and all neural activity ceases. They produce urea and glucose as natural cryoprotectants to prevent ice crystals from rupturing cell membranes, and can thaw fully alive and functional within a few hours when temperatures rise. This adaptation allows them to live further north than any other amphibian species, all the way inside the arctic circle.",
+      "sources": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117234",
+        "https://journals.physiology.org/doi/abs/10.1152/ajpregu.1993.265.4.R721"
+      ],
+      "deliveredAt": "2026-04-02T08:35:00+08:00",
+      "count": 1
+    },
+    {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Desert ant magnetic navigation calibration",
       "fact": "Desert ants do not only use the Earth's magnetic field as a compass — they require it during their very first learning walks outside the nest in order to calibrate their entire visual navigation system. Without access to magnetic field information, ants never successfully learn to reliably return home, even with perfect visual landmarks. This was confirmed in December 2025 PNAS studies, where it was found that magnetic reference is used to permanently align spatial memory during the first 72 hours of an ant's foraging life.",
