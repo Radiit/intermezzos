@@ -204,6 +204,17 @@
     },
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Horseshoe bat doppler shift compensation",
+      "fact": "Horseshoe bats maintain perfect echolocation lock while flying at 50 km/h by continuously adjusting their call frequency to cancel out Doppler shift. They do this with a closed loop latency of less than 12 milliseconds — so fast that they update their call frequency mid-scream, before the previous echo has even returned. This is the fastest known feedback loop in any vertebrate nervous system. No man-made radar system operates with this level of real time correction.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/12000805/",
+        "https://journals.biologists.com/jeb/article-abstract/205/11/1607/8999/Doppler-shift-compensation-behavior-in-horseshoe"
+      ],
+      "deliveredAt": "2026-04-02T22:20:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Mycorrhizal network overnight carbon transfer timing",
       "fact": "Using stable isotope tracking in intact forest stands, researchers verified that most carbon transfer between connected trees happens exclusively overnight. While trees photosynthesise and store carbon during the day, nearly all movement through underground fungal networks occurs after sunset, following source-sink gradients. This timing was consistent across both same-species and mixed-species tree pairs, with individual carbon molecules travelling up to 35 meters through the network in a single night.",
       "sources": [
