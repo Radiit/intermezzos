@@ -1,6 +1,18 @@
 {
   "delivered": [
     {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Slime mold memory",
+      "fact": "The single-celled slime mold *Physarum polycephalum* has no brain or neurons, yet it forms reliable spatial memory. It does this by leaving behind thickened slime trails wherever it travels, then actively avoids those trails later. This externalized memory lets it navigate mazes, remember food locations, and even adjust decisions when new information is found. It is one of the clearest known examples of memory existing entirely outside an organism's body.",
+      "sources": [
+        "https://www.pnas.org/doi/10.1073/pnas.1215037109",
+        "https://www.sciencedaily.com/releases/2021/02/210223121643.htm",
+        "https://mindmatters.ai/2025/07/slime-mold-memory-and-learning-without-neurons/"
+      ],
+      "deliveredAt": "2026-04-02T02:05:00Z",
+      "count": 1
+    },
+    {
       "id": "croc-heart-shunt-digestion-20260402",
       "topic": "Crocodile cardiac shunt function",
       "fact": "Unlike every other four-chambered heart animal, crocodiles have an active right-to-left blood shunt that bypasses their lungs entirely. This is not a defect: it evolved deliberately to redirect CO₂ rich blood directly to their stomach, where it powers production of stomach acid 10x faster than any mammal, letting them dissolve bone and large prey.",
