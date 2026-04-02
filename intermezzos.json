@@ -1,6 +1,17 @@
 {
   "delivered": [
     {
+      "id": "geosmin-human-olfaction-sensitivity-20260403",
+      "topic": "Human geosmin olfactory sensitivity",
+      "fact": "The human nose can detect geosmin – the compound responsible for the smell of rain – at just 100 parts per trillion. This makes us 200,000 times more sensitive to this molecule than sharks are to blood. We evolved this extreme sensitivity to locate fresh water sources across large distances, an adaptation that predates modern humans. No other tested mammal has demonstrated this level of detection sensitivity for any airborne chemical.",
+      "sources": [
+        "https://www.jic.ac.uk/press-release/research-unearths-the-science-behind-the-smell-of-spring/",
+        "https://www.acsh.org/news/2018/07/28/geosmin-why-we-smell-air-after-storm-13240"
+      ],
+      "deliveredAt": "2026-04-02T17:05:00Z",
+      "count": 1
+    },
+    {
       "id": "honeybee-waggle-dance-error-20260403",
       "topic": "Honeybee waggle dance error tradeoff",
       "fact": "For over 50 years researchers assumed the error in honeybee waggle dances was an imperfect limitation. We now know it is an intentional evolutionary tradeoff. Perfectly precise dances would send every bee to exactly the same flower, causing crowding and missed opportunities. The natural ±15° built-in error spreads foragers out across an area, dramatically increasing total colony harvest success while still reliably guiding them to the correct general location.",
