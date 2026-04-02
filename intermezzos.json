@@ -2,6 +2,17 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Great white shark liver buoyancy mechanism",
+      "fact": "Great white sharks do not have swim bladders like bony fish. Instead they carry an enormous fatty liver that can account for up to 27% of their total body weight. This organ is filled almost entirely with squalene, a lipid that is almost exactly 10% less dense than seawater. Unlike every other buoyancy mechanism found in vertebrates, shark liver oil has almost identical compressibility to seawater, meaning their neutral buoyancy remains perfectly constant at any depth, with zero adjustment required. This is why great whites can glide silently for hours across thousands of meters of depth changes without expending any energy on buoyancy control.",
+      "sources": [
+        "https://journals.biologists.com/jeb/article/223/9/jeb222943/223816/Near-equal-compressibility-of-liver-oil-and",
+        "https://en.wikipedia.org/wiki/Great_white_shark"
+      ],
+      "deliveredAt": "2026-04-02T20:05:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Cockroach neural decision speed",
       "fact": "Cockroaches make final escape decisions in less than 40 milliseconds — using only 2-3 sensory input spikes. Modern sparse AI architectures are now directly copying this biological design, as shown in 2024 Science Robotics research where these models outperformed standard deep learning on low-sensor data tasks while using 1/100th the compute.",
       "sources": [
