@@ -2,6 +2,17 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Wood frog extreme freeze tolerance",
+      "fact": "Wood frogs can survive up to 7 months completely frozen solid, with 70% of their total body water turned to ice. They do this by producing natural glucose cryoprotectant which stops ice crystals from rupturing cell walls. While frozen their heart stops entirely, they have no measurable brain activity, and they do not breathe. They can thaw and resume normal full function within 10 hours when temperatures rise.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8067143/",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117234"
+      ],
+      "deliveredAt": "2026-04-02T02:50:00Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Slime mold memory",
       "fact": "The single-celled slime mold *Physarum polycephalum* has no brain or neurons, yet it forms reliable spatial memory. It does this by leaving behind thickened slime trails wherever it travels, then actively avoids those trails later. This externalized memory lets it navigate mazes, remember food locations, and even adjust decisions when new information is found. It is one of the clearest known examples of memory existing entirely outside an organism's body.",
       "sources": [
