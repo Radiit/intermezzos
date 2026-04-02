@@ -2,6 +2,18 @@
   "delivered": [
     {
       "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
+      "topic": "Tardigrade DNA repair mechanisms",
+      "fact": "Tardigrades don't just shield their DNA to survive extreme radiation — they actively repair it. Within minutes of exposure, they dramatically upregulate dozens of dedicated DNA repair genes, not just one or two. Their Dsup protein does not block damage directly, instead it modulates human cell repair pathways to speed recovery. This mechanism works so well that researchers are already testing expressed tardigrade genes to improve radiation resistance in human cell cultures.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8533384/",
+        "https://www.cell.com/current-biology/fulltext/S0960-9822(24)00470-6",
+        "https://www.biorxiv.org/content/10.1101/2023.09.07.556677v1.full"
+      ],
+      "deliveredAt": "2026-04-02T09:35:00.000Z",
+      "count": 1
+    },
+    {
+      "id": "273577d6-81bb-4e15-ac1e-fba21e6067e4",
       "topic": "Turritopsis dohrnii immortal jellyfish ontogeny reversal",
       "fact": "The immortal jellyfish *Turritopsis dohrnii* is the only known animal that can fully reverse its own life cycle after reaching sexual maturity. When injured, starved, or facing extreme stress, an adult medusa will completely transform back into a juvenile polyp colony using full cellular transdifferentiation. Every single cell in its body resets its developmental identity, and there is no known natural limit to how many times it can perform this reversal. It achieves this by activating a set of just 142 conserved genes that are also present in the human genome.",
       "sources": [
